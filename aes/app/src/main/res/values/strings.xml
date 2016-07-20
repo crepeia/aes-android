@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">aes</string>
+    <string name="app_name">Álcool e Saúde</string>
+    <string name="welcome.1">Bem vindo ao Álcool e Saúde.</string>
+    <string name="welcome.2">Você sabe o quanto o álcool pode afetar a sua saúde ?</string>
+    <string name="welcome.3">Avalie o seu beber. A avaliação é gratuita e sempre será!</string>
+    <string name="welcome.4">O conteúdo foi criado por profissionais de saúde e especialistas na área.</string>
+    <string name="button.evaluate">Começar a Avaliação</string>
+    <string name="hello">Olá!</string>
+    <string name="questions.0">Para saber o quanto você bebe e os impactos para a sua saúde, precisamos das seguintes informações:</string>
+    <string name="questions.1">01 - Sexo</string>
+    <string name="questions.2">02 - Nascimento</string>
+    <string name="questions.3">03 - Às vezes, você bebe, cerveja, cachaça, vinho ou outras bebidas alcoólicas - mesmo em pouca quantidade ?</string>
+    <string name="female">Feminino</string>
+    <string name="male">Masculino</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="next">Próximo</string>
+    <string name="back">Voltar</string>
 </resources>

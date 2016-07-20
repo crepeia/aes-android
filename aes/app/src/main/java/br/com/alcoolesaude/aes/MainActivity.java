@@ -4,63 +4,88 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.DatePicker;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.Toast;
 
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.SoapObject;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
 import org.ksoap2.transport.HttpTransportSE;
 
+import java.util.Date;
+
 public class MainActivity extends AppCompatActivity {
+
+    Evaluation evaluation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Thread thread = new Thread(new Runnable()
-        {
-            @Override
-            public void run()
-            {
-                try
-                {
-                    requestWS();
-                }
-                catch (Exception e)
-                {
-                    e.printStackTrace();
-                }
-            }
-        });
-        thread.start();
+
     }
 
+    public void startEvaluation(View view){
+        evaluation = new Evaluation();
+        evaluation.setDateCreated(new Date());
+        setContentView(R.layout.question_gender);
+    }
 
-    public void requestWS() {
-        System.out.println("requesting");
-        SoapObject soap = new SoapObject("http://localhost:61626/WebApplication1",
-                "hello");
+    public void genderQuestionBack(View view){
+        setContentView(R.layout.activity_main);
+    }
 
-        soap.addProperty("name", "aaa");
+    public void genderQuestionNext(View view){
+        RadioGroup radiogroup =  (RadioGroup) findViewById(R.id.radioGroupGender);
+        int selectedId = radiogroup .getCheckedRadioButtonId();
 
-        SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(
-                SoapEnvelope.VER11);
+        RadioButton radioButton = (RadioButton) findViewById(selectedId);
+        if (radioButton != null) {
 
-        envelope.setOutputSoapObject(soap);
+            if (String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.female))) {
+                evaluation.setGender("F");
+            }else {
+                evaluation.setGender("M");
+            }
+            setContentView(R.layout.question_birth);
+        }
 
-        String url = "http://localhost:61626/WebApplication1/NewWebService";
+    }
 
-        HttpTransportSE httpTransport = new HttpTransportSE(url);
+    public void birthQuestionBack(View view){
+        DatePicker datePicker = (DatePicker) findViewById(R.id.datePickerBirth);
+        int day = datePicker.getDayOfMonth();
+        int month = datePicker.getMonth();
+        int year = datePicker.getYear();
+        evaluation.setBirth(year,month,day);
+        setContentView(R.layout.question_gender);
+    }
 
-        try {
+    public void birthQuestionNext(View view){
+        setContentView(R.layout.question_drink);
+    }
 
-            httpTransport.call("", envelope);
+    public void drinkQuestionBack(View view){
+        setContentView(R.layout.question_birth);
+    }
 
-            Object msg = envelope.getResponse();
+    public void drinkQuestionNext(View view){
+        RadioGroup radiogroup =  (RadioGroup) findViewById(R.id.radioGroupGender);
+        int selectedId = radiogroup .getCheckedRadioButtonId();
 
-            System.out.println(msg.toString());
+        RadioButton radioButton = (RadioButton) findViewById(selectedId);
+        if (radioButton != null) {
 
-        } catch (Exception ex) {
-            ex.printStackTrace();
+            if (String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.yes))) {
+                evaluation.setDrink(true);
+            }else {
+                evaluation.setDrink(false);
+            }
+            setContentView(R.layout.activity_main);
         }
     }
 }
