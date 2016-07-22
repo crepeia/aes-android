@@ -16,4 +16,11 @@
     <string name="no">Não</string>
     <string name="next">Próximo</string>
     <string name="back">Voltar</string>
+
+    <string name="audit.3.1">01. Com que frequência você consome bebidas alcoólicas? </string>
+    <string name="audit.3.selectitem.1">Nunca</string>
+    <string name="audit.3.selectitem.2">1 vez ao mês ou menos</string>
+    <string name="audit.3.selectitem.3">De 2 a 4 vezes por mês</string>
+    <string name="audit.3.selectitem.4">De 2 a 3 vezes por semana</string>
+    <string name="audit.3.selectitem.5">4 ou mais vezes por semana</string>
 </resources>
