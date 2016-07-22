@@ -16,4 +16,16 @@
     <string name="no">Não</string>
     <string name="next">Próximo</string>
     <string name="back">Voltar</string>
+    <string name="questions.5">02. Nas ocasiões em que bebe, quantas doses (*veja na ilustração acima quanto é uma dose) você consome tipicamente ao beber?</string>
+    <string name="audit3_2.1">1 ou 2</string>
+    <string name="audit3_2.2">3 ou 4</string>
+    <string name="audit3_2.3">5 ou 6</string>
+    <string name="audit3_2.4">7, 8 ou 9</string>
+    <string name="audit3_2.5">10 ou mais</string>
+    <string name="questions.6">03. Com que frequência você toma seis ou mais doses* de uma vez?</string>
+    <string name="audit3_3.1">Nunca</string>
+    <string name="audit3_3.2">1 vez ao mês ou menos</string>
+    <string name="audit3_3.3">Mensalmente</string>
+    <string name="audit3_3.4">Semanalmente</string>
+    <string name="audit3_3.5">Todos ou quase todos os dias</string>
 </resources>
