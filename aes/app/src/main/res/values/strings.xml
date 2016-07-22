@@ -59,4 +59,12 @@
     <string name="men">Homens</string>
     <string name="women">Mulheres</string>
     <string name="feedback.abstainers.info.button">Acessar</string>
+    <string name="audit3_week">Em uma semana típica, durante os últimos 6 meses, quantas doses você costumava ingerir consumir nestes dias da semana?</string>
+    <string name="monday">Segunda-Feira</string>
+    <string name="tuesday">Terça-Feira</string>
+    <string name="wednesday">Quarta-Feira</string>
+    <string name="thursday">Quinta-Feira</string>
+    <string name="friday">Sexta-Feira</string>
+    <string name="saturday">Sábado</string>
+    <string name="sunday">Domingo</string>
 </resources>
