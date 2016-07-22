@@ -11,7 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
@@ -26,40 +26,81 @@
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/questions.1"/>
+            android:text="@string/audit3_week"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:orientation="vertical">
 
-        <RadioGroup
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:id="@+id/radioGroupGender">
-
-
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/female"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primaryText"
-                android:layout_marginBottom="20dp"
-                android:id="@+id/radioButtonFemale"/>
+                android:text="@string/friday"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editTextFriday" />
 
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/male"
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primaryText"
-                android:id="@+id/radioButtonMale"/>
+                android:text="@string/saturday" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editTextSaturday" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/primaryText"
+                android:text="@string/sunday"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editTextSunday" />
+
+        </LinearLayout>
 
 
-        </RadioGroup>
 
     </LinearLayout>
 
