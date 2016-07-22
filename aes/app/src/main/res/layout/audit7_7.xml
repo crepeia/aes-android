@@ -19,52 +19,68 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/congratulations"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.abstainers"/>
+            android:text="@string/audit.text"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/questions.3"/>
+            android:text="@string/audit.7"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="3"
         android:orientation="vertical">
 
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:id="@+id/radioGroupGender">
+            android:id="@+id/radioGroupAudit7">
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/yes"
-                android:layout_marginBottom="20dp"
+                android:text="@string/audit.never"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primaryText"
-                android:id="@+id/radioButtonMale"/>
+                android:id="@+id/radioButtonAudit7.1"/>
 
 
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/no"
+                android:text="@string/audit.once"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primaryText"
-                android:id="@+id/radioButtonFemale"/>
+                android:id="@+id/radioButtonAudit7.2"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/audit.monthly"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/primaryText"
+                android:id="@+id/radioButtonAudit7.3"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/audit.weekly"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/primaryText"
+                android:id="@+id/radioButtonAudit7.4"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/audit.every.day"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/primaryText"
+                android:id="@+id/radioButtonAudit7.5"/>
 
         </RadioGroup>
 
