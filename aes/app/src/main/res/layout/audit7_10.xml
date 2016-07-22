@@ -11,46 +11,64 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="4"
+        android:layout_weight="3"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.abstainers.problems"/>
+            android:text="@string/audit.text"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.abstainers.problems.1"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/primaryText"
-            android:text="@string/feedback.abstainers.problems.2"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/primaryText"
-            android:text="@string/feedback.abstainers.problems.3"/>
-
+            android:text="@string/audit.10"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0"
+        android:layout_weight="3"
         android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:id="@+id/radioGroupAudit10">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/no"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/primaryText"
+                android:id="@+id/radioButtonAudit10.1"/>
+
+
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/audit.yes.yearNo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/primaryText"
+                android:id="@+id/radioButtonAudit10.2"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/audit.yes.yearYes"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/primaryText"
+                android:id="@+id/radioButtonAudit10.3"/>
+
+
+        </RadioGroup>
+
 
 
 
@@ -69,7 +87,7 @@
             android:gravity="center">
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"g
+                android:layout_height="wrap_content"
                 android:text="@string/back"
                 android:onClick="drinkQuestionBack"
                 android:padding="20dp"
@@ -81,7 +99,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center">
-
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                android:onClick="drinkQuestionNext"
+                android:padding="20dp"
+                android:textColor="#FFFFFF"
+                />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
