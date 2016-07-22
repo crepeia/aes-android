@@ -58,12 +58,13 @@
     <string name="feedback.abstainers.problems.1">É importante que você evite o uso de álcool junto com medicamentos.</string>
     <string name="feedback.abstainers.problems.2">Diversas condições de saúde podem ser agravadas pelo uso de álcool.</string>
     <string name="feedback.abstainers.problems.3">Pessoas acima de 60 anos devem evitar o consumo de álcool.</string>
-    <string name="feedback.abstainers.info">Se você gostaria de aprofundar mais sobre o assunto, preparamos um material para você no link abaixo.</string>
+    <string name="more.info.title">Se você gostaria de aprofundar mais sobre o assunto, preparamos um material para você no link abaixo.</string>
     <string name="feedback.abstainers.button.1">Limites</string>
     <string name="feedback.abstainers.button.2">Possíveis problemas</string>
-    <string name="feedback.abstainers.button.3">Mais informações</string>
+    <string name="more.info">Mais informações</string>
     <string name="men">Homens</string>
     <string name="women">Mulheres</string>
+    <string name="more.info.button">Acessar</string>
     <string name="feedback.abstainers.info.button">Acessar</string>
     <string name="feedback.pregnancyyes.titulo">Informações para Gestantes</string>
     <string name="feedback.pregnancyyes.intro">Cuidado! Você relatou fazer consumo de álcool - o que é extremamente prejudicial para o bom desenvolvimento do seu bebê.</string>
@@ -121,5 +122,25 @@
     <string name="friday">Sexta-Feira</string>
     <string name="saturday">Sábado</string>
     <string name="sunday">Domingo</string>
+    <string name="feedback.recommend">O seu uso de álcool foi considerado de baixo risco.</string>
+    <string name="feedback.recommend.button.1">Recomendações</string>
+    <string name="feedback.recommend.button.2">Recomendações Especiais</string>
+    <string name="feedback.recommend.button.3">Mais informações</string>
+    <string name="annual.screening">Acompanhamento anual</string>
+    <string name="annual.screening.button">Enviar</string>
+    <string name="feedback.recommend.recommendations.1">Baixo Risco não quer Sem Risco - Logo, sugerimos que siga as seguintes recomendações:</string>
+    <string name="feedback.recommend.recommendations.2.men">Beba no máximo 2 doses por dia.</string>
+    <string name="feedback.recommend.recommendations.3.men">Não mais que 10 doses por semana..</string>
+    <string name="feedback.recommend.recommendations.4">Caso beber mais que isso, considere fazer esta avaliação novamente para iniciar um plano de mudança.</string>
+    <string name="feedback.recommend.recommendations.2.women">Beba no máximo 2 doses por dia.</string>
+    <string name="feedback.recommend.recommendations.3.women">Não mais que 10 doses por semana.</string>
+    <string name="feedback.recommend.specials">Nós indicamos que você consuma menos álcool ou seja pare de beber se:</string>
+    <string name="feedback.recommend.specials.1">Tomar medicações que interajam com álcool. Obtenha mais informações com o seu médico.</string>
+    <string name="feedback.recommend.specials.2">Tenha uma condição de saúde que possa agravar com o uso de álcool.</string>
+    <string name="feedback.recommend.specials.3">Se for mulher e estiver grávida, recomendamos abstinência.</string>
+    <string name="feedback.recommend.info">Se você gostaria de aprofundar mais sobre o assunto, preparamos um material para você no link abaixo.</string>
+    <string name="feedback.recommend.annual.screening">Se você gostaria de aprofundar mais sobre o assunto, preparamos um material para você no link abaixo.</string>
+    <string name="annual.screening.title">Se você quiser, podemos entrar em contato com você daqui a um ano para uma nova avaliação. Coloque seu e-mail no campo abaixo.</string>
+
 </resources>
 
