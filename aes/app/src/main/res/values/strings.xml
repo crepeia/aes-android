@@ -16,4 +16,19 @@
     <string name="no">Não</string>
     <string name="next">Próximo</string>
     <string name="back">Voltar</string>
+    <string name="congratulations">Parabéns</string>
+    <string name="feedback.abstainers">Você relatou não consumir álcool, dessa forma você evita diversos problemas de saúde decorrentes do consumo excessivo.</string>
+    <string name="feedback.abstainers.limits">Confira a seguir os limites do beber de baixo risco, caso venha a beber no futuro:</string>
+    <string name="feedback.abstainers.limits.men">No máximo duas doses padrão por ocasião, no máximo 5 dias na semana.</string>
+    <string name="feedback.abstainers.limits.women">No máximo uma doses padrão por ocasião, no máximo 5 dias na semana.</string>
+    <string name="feedback.abstainers.problems">Mesmo o beber de baixo risco pode apresentar problemas:</string>
+    <string name="feedback.abstainers.problems.1">É importante que você evite o uso de álcool junto com medicamentos.</string>
+    <string name="feedback.abstainers.problems.2">Diversas condições de saúde podem ser agravadas pelo uso de álcool.</string>
+    <string name="feedback.abstainers.problems.3">Pessoas acima de 60 anos devem evitar o consumo de álcool.</string>
+    <string name="feedback.abstainers.info">Se você gostaria de aprofundar mais sobre o assunto, preparamos um material para você neste link.</string>
+    <string name="feedback.abstainers.button.1">Limites</string>
+    <string name="feedback.abstainers.button.2">Possíveis problemas</string>
+    <string name="feedback.abstainers.button.3">Mais informações</string>
+
+
 </resources>
