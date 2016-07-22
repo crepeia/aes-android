@@ -25,10 +25,12 @@
     <string name="feedback.abstainers.problems.1">É importante que você evite o uso de álcool junto com medicamentos.</string>
     <string name="feedback.abstainers.problems.2">Diversas condições de saúde podem ser agravadas pelo uso de álcool.</string>
     <string name="feedback.abstainers.problems.3">Pessoas acima de 60 anos devem evitar o consumo de álcool.</string>
-    <string name="feedback.abstainers.info">Se você gostaria de aprofundar mais sobre o assunto, preparamos um material para você neste link.</string>
+    <string name="feedback.abstainers.info">Se você gostaria de aprofundar mais sobre o assunto, preparamos um material para você no link abaixo.</string>
     <string name="feedback.abstainers.button.1">Limites</string>
     <string name="feedback.abstainers.button.2">Possíveis problemas</string>
     <string name="feedback.abstainers.button.3">Mais informações</string>
-
+    <string name="men">Homens</string>
+    <string name="women">Mulheres</string>
+    <string name="feedback.abstainers.info.button">Acessar</string>
 
 </resources>
