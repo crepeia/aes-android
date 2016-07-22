@@ -11,7 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="3"
+        android:layout_weight="2"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
@@ -19,26 +19,19 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/congratulations"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.abstainers"/>
+            android:text="@string/questions.0"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/questions.3"/>
+            android:text="@string/questions.6"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="2.44"
         android:orientation="vertical">
 
         <RadioGroup
@@ -47,29 +40,55 @@
             android:layout_gravity="left"
             android:id="@+id/radioGroupGender">
 
+
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/yes"
+                android:text="@string/audit3_3.1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/primaryText"
                 android:layout_marginBottom="20dp"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/primaryText"
-                android:id="@+id/radioButtonMale"/>
-
-
+                android:id="@+id/radioButtonFemale"
+                android:checked="false" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/no"
+                android:text="@string/audit3_3.2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primaryText"
-                android:id="@+id/radioButtonFemale"/>
+                android:id="@+id/radioButtonMale"
+                android:checked="false" />
+
 
         </RadioGroup>
 
+        <RadioButton
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:text="@string/audit3_3.3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/primaryText"
+            android:id="@+id/radioButton"
+            android:checked="false" />
 
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/audit3_3.4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/primaryText"
+            android:id="@+id/radioButton2"
+            android:checked="false" />
 
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/audit3_3.5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/primaryText"
+            android:id="@+id/radioButton3"
+            android:checked="false" />
 
     </LinearLayout>
 
@@ -88,7 +107,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/back"
-                android:onClick="drinkQuestionBack"
+                android:onClick="genderQuestionBack"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
                 />
@@ -102,7 +121,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/next"
-                android:onClick="drinkQuestionNext"
+                android:onClick="genderQuestionNext"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
                 />
