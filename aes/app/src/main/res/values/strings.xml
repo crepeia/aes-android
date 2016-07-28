@@ -167,6 +167,17 @@
     <string name="feedback.recommend.info">Se você gostaria de aprofundar mais sobre o assunto, preparamos um material para você no link abaixo.</string>
     <string name="feedback.recommend.annual.screening">Se você gostaria de aprofundar mais sobre o assunto, preparamos um material para você no link abaixo.</string>
     <string name="annual.screening.title">Se você quiser, podemos entrar em contato com você daqui a um ano para uma nova avaliação. Coloque seu e-mail no campo abaixo.</string>
+    <string name="feedback.underage.drinkingno_pregnancyyes.titulo">Informações para menores de 18 anos grávidas</string>
+    <string name="feedback.underage.drinkingno_pregnancyyes.intro">Parabéns por não consumir álcool ! Cuidado: toda gravidez na adolescência é considerada como de risco, mesmo que você não consuma álcool.</string>
+    <string name="feedback.underage.drinkingno_pregnancyyes.text1.1">A adolescência é um período único para o desenvolvimento do cérebro e do seu corpo.</string>
+    <string name="feedback.underage.drinkingno_pregnancyyes.text1.2">Estudos apontam que mesmo os adolescentes que consomem álcool a pouco tempo, podem ter uma diminuição do volume do cérebro. Ao longo do tempo, adolescentes que consomem álcool, podem também ter maiores dificuldades para resolver problemas que exigem o uso de raciocínio.</string>
+    <string name="feedback.underage.drinkingno_pregnancyyes.text1.3">Ao evitar consumir álcool você não só preserva o seu cérebro por mais tempo, como também evita outros possíveis danos que podem estar associados com problemas de saúde, acidentes, brigas e discussões.</string>
+    <string name="feedback.underage.drinkingno_pregnancyyes.text2.1">Aprender a se divertir e aproveitar a vida de forma mais saudável é sempre uma escolha boa !</string>
+    <string name="feedback.underage.drinkingno_pregnancyyes.text2.2">Caso tenha dúvidas ou venha a consumir álcool no futuro procure um profissional de saúde e converse sobre este assunto:</string>
+    <string name="feedback.underage.drinkingno_pregnancyyes.text2.3">Confira abaixo algumas das dúvidas frequentes entre adolescentes:</string>
+
+
+</string>
 
 </resources>
 
