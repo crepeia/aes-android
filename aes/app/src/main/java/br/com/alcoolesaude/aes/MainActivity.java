@@ -30,7 +30,7 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final String url = "http://alcoolesude.com.br/test.xhtml";
+    private final String url = "http://alcoolesude.com.br/appRequest.xhtml";
     private final String key = "11VzuKzy5k";
     Evaluation evaluation;
 
