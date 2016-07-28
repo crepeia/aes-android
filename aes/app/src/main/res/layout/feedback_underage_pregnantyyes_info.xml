@@ -13,37 +13,23 @@
         android:layout_height="0dp"
         android:layout_weight="4"
         android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.pregnancyyes.pergunta3"/>
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="40dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyyes.pergunta3.1"/>
+            android:text="@string/feedback.pregnancyyes.info"/>
 
-        <TextView
-            android:layout_width="wrap_content"
+        <Button
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyyes.pergunta3.2"/>
+            android:padding="20dp"
+            android:text="@string/feedback.pregnancyyes.info.button"
+            android:textColor="#FFFFFF"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyyes.pergunta3.3"/>
 
     </LinearLayout>
     <LinearLayout
@@ -69,7 +55,7 @@
             android:gravity="center">
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"g
+                android:layout_height="wrap_content"
                 android:text="@string/back"
                 android:onClick="drinkQuestionBack"
                 android:padding="20dp"
