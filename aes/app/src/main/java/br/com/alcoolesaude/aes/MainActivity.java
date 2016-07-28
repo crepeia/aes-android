@@ -30,46 +30,71 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
+    private final String url = "http://alcoolesude.com.br/test.xhtml";
+    private final String key = "11VzuKzy5k";
     Evaluation evaluation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final TextView mTextView = (TextView) findViewById(R.id.text);
 
-        // Instantiate the RequestQueue.
-        RequestQueue queue = Volley.newRequestQueue(this);
-        String url = "http://192.168.1.125:8080/aes/test.xhtml";
 
-        // Request a string response from the provided URL.
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
-                new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        // Display the first 500 characters of the response string.
-                        if(response.contains("Alif")) {
-                            mTextView.setText("Dados transferidos com sucesso");
-                            //System.out.println(response);
+    }
+
+    public void syncData(){
+        if(evaluation != null && evaluation.getSyncDate() == null) {
+
+            RequestQueue queue = Volley.newRequestQueue(this);
+
+            StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
+                    new Response.Listener<String>() {
+                        @Override
+                        public void onResponse(String response) {
+                            // Display the first 500 characters of the response string.
+                            if (response.contains(key)) {
+                                evaluation.setSyncDate(new Date());
+                            }
                         }
-                    }
-                },
-                new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        mTextView.setText("That didn't work!");
-                    }
-                }){@Override
-        protected Map<String, String> getParams()
-        {
-            Map<String, String>  params = new HashMap<String, String>();
-            params.put("test", "Alif");
-            params.put("domain", "http://itsalif.info");
+                    },
+                    new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
 
-            return params;
-        }};
-        // Add the request to the RequestQueue.
-        queue.add(stringRequest);
+                        }
+                    }) {
+                @Override
+                protected Map<String, String> getParams() {
+                    Map<String, String> params = new HashMap<String, String>();
+                    params.put("dateCreated",String.valueOf(evaluation.getDateCreated().getTime()));
+                    params.put("syncDate",String.valueOf(evaluation.getSyncDate().getTime()));
+                    params.put("birth", String.valueOf(evaluation.getBirth().getTime()));
+                    params.put("gender", evaluation.getGender());
+                    params.put("drink", String.valueOf(evaluation.getDrink()));
+                    params.put("audit1", String.valueOf(evaluation.getAudit1()));
+                    params.put("audit2", String.valueOf(evaluation.getAudit2()));
+                    params.put("audit3", String.valueOf(evaluation.getAudit3()));
+                    params.put("audit4", String.valueOf(evaluation.getAudit4()));
+                    params.put("audit5", String.valueOf(evaluation.getAudit5()));
+                    params.put("audit6", String.valueOf(evaluation.getAudit6()));
+                    params.put("audit7", String.valueOf(evaluation.getAudit7()));
+                    params.put("audit8", String.valueOf(evaluation.getAudit8()));
+                    params.put("audit9", String.valueOf(evaluation.getAudit9()));
+                    params.put("monday", String.valueOf(evaluation.getMonday()));
+                    params.put("tuesday", String.valueOf(evaluation.getTuesday()));
+                    params.put("wednesday", String.valueOf(evaluation.getWednesday()));
+                    params.put("thursday", String.valueOf(evaluation.getThursday()));
+                    params.put("friday", String.valueOf(evaluation.getFriday()));
+                    params.put("saturday", String.valueOf(evaluation.getSaturday()));
+                    params.put("sunday", String.valueOf(evaluation.getSunday()));
+                    params.put("email", evaluation.getEmail());
+                    params.put("key", key);
+
+                    return params;
+                }
+            };
+            queue.add(stringRequest);
+        }
     }
 
     public void startEvaluation(View view){
