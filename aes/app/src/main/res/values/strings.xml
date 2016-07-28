@@ -167,6 +167,34 @@
     <string name="feedback.recommend.info">Se você gostaria de aprofundar mais sobre o assunto, preparamos um material para você no link abaixo.</string>
     <string name="feedback.recommend.annual.screening">Se você gostaria de aprofundar mais sobre o assunto, preparamos um material para você no link abaixo.</string>
     <string name="annual.screening.title">Se você quiser, podemos entrar em contato com você daqui a um ano para uma nova avaliação. Coloque seu e-mail no campo abaixo.</string>
-
+    <string name="symptoms.risk">O seu consumo pode ser considerado de Risco</string>
+    <string name="symptoms.risk.1">Considerando as suas respostas - apesar do seu consumo de álcool poder não apresentar problemas no momento, você possui risco de apresentá-los no futuro:</string>
+    <string name="symptoms.risk.1.1">- Quanto maior a quantidade de álcool que você consome, maior é o risco de desenvolver algum problema</string>
+    <string name="symptoms.risk.1.2">- Muitos destes possíveis problemas demoram a aparecer, mas podem ser graves no futuro</string>
+    <string name="problems.alcool">Problemas relacionados ao álcool</string>
+    <string name="accident.button1">Acidente</string>
+    <string name="health.problem.button1">Problemas de saúde</string>
+    <string name="fetus.problem.button1">Problema de formação do feto</string>
+    <string name="dependecy.button1">Dependência e danos associados</string>
+    <string name="problems.accident">São maiores as chances de sofrer um acidente menor ou até mesmo fatal entre pessoas que possuem o seu padrão de consumo</string>
+    <string name="problems.accident.1">- 60% dos incêndios com vitimas fatais, afogamentos e homicídios</string>
+    <string name="problems.accident.2">- 50% dos acidentes com traumas graves e casos de abuso sexual</string>
+    <string name="problems.accident.3">- 50% dos acidentes fatais com mortes no trânsito, suicídios e quedas fatais</string>
+    <string name="problems.health">Pessoas que bebem muito possuem o risco aumentado para mais de 60 tipos de condições de saúde, dentre elas várias que são fatais</string>
+    <string name="problems.health.1">- Doenças do Fígado (Cirrose Hepática, etc)</string>
+    <string name="problems.health.2">- Doenças do Coração</string>
+    <string name="problems.health.3">- Transtorno do Sono</string>
+    <string name="problems.health.4">- Depressão</string>
+    <string name="problems.health.5">- Acidente Vascular Cerebral (Derrames)</string>
+    <string name="problems.health.6">- "Úlceras Gástricas</string>
+    <string name="problems.health.7">- Doenças Sexualmente Tramissíveis (sexo sem proteção)</string>
+    <string name="problems.health.8">- Diversos Tipos de Câncer</string>
+    <string name="problems.health.9">- Dificuldade de manter controlado doenças como diabetes e pressão alta</string>
+    <string name="problems.fetus">Beber durante a gravidez pode gerar diversas consequências negativas e irreversivéis para o bebê</string>
+    <string name="problems.fetus.1">- Danos Cerebrais</string>
+    <string name="problems.fetus.2">- Sérios Problemas de formação</string>
+    <string name="problems.fetus.3">- Mulheres com suspeita de gravidez ou grávidas não devem consumir álcool</string>
+    <string name="problems.dependency">Geralmente conhecido como alcoolismo, a dependência do uso de álcool é uma consequência do seu consumo abusivo
+Os problemas relacionados ao consumo de álcool são considerados problemas de saúde importantes e exigem cuidado</string>
 </resources>
 
