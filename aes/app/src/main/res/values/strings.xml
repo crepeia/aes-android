@@ -226,5 +226,12 @@
     <string name="problems.fetus.3">- Mulheres com suspeita de gravidez ou grávidas não devem consumir álcool</string>
     <string name="problems.dependency">Geralmente conhecido como alcoolismo, a dependência do uso de álcool é uma consequência do seu consumo abusivo
 Os problemas relacionados ao consumo de álcool são considerados problemas de saúde importantes e exigem cuidado</string>
+    <string name="dependency">Você possui chances de ter um Importante problema com álcool</string>
+    <string name="dependency.1">- Considerando as suas respostas, seu consumo de álcool já poderia ser considerado como associado à vários problemas.</string>
+    <string name="dependency.2">- A forma que você consome álcool é compatível com a maneira com pessoas dependentes de álcool o consomem</string>
+    <string name="dependency.3">- Você já experimenta problemas importantes e irá se beneficiar muito de uma ajuda profissional</string>
+    <string name="dependency.4">- Geralmente conhecido como alcoolismo, a dependência do uso de álcool é uma consequência do seu consumo abusivo</string>
+    <string name="dependency.5">- Os problemas relacionados ao consumo de álcool são considerados problemas de saúde importantes e exigem cuidado</string>
+    <string name="dependency.question">Você gostaria de adicionalmente conhecer algumas estratégias práticas que podem lhe ajudar com este problema ?</string>
 </resources>
 
