@@ -11,7 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="4"
+        android:layout_weight="4.60"
         android:orientation="vertical"
         android:weightSum="1">
         <TextView
@@ -20,7 +20,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.pregnancyyes.pergunta2"/>
+            android:text="@string/feedback.pregnancyno.recomendacoes.3"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyyes.pergunta2.1"/>
+            android:text="@string/feedback.pregnancyno.recomendacoes.4"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -36,16 +36,8 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyyes.pergunta2.2"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyyes.pergunta2.3"
-            android:layout_weight="0.41" />
+            android:text="@string/feedback.pregnancyno.recomendacoes.5"
+            android:layout_weight="0.27" />
 
     </LinearLayout>
     <LinearLayout
@@ -61,7 +53,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1.54"
+        android:layout_weight="2"
         android:orientation="horizontal"
         android:gravity="center">
         <LinearLayout
@@ -84,6 +76,14 @@
             android:layout_weight="1"
             android:gravity="center">
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                android:onClick="drinkQuestionBack"
+                android:padding="20dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/button4" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

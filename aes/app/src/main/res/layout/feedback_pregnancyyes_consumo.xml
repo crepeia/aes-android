@@ -35,7 +35,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyyes.pergunta1.2"/>
+            android:text="@string/feedback.underage.pregnancyyes.duvidas"/>
 
         <TextView
             android:layout_width="wrap_content"
