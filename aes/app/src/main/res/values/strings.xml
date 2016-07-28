@@ -170,7 +170,12 @@
     <string name="feedback.underage.pregnancyyes.recomendacoes2">Este site ainda não possui ferramentas específicas para gestantes e para adolescentes.</string>
     <string name="feedback.underage.pregnancyyes.recomendacoes3">Recomendamos que leia as perguntas e respostas sobre álcool e gravidez na adolescência a seguir, elas podem lhe ajudar.</string>
     <string name="feedback.underage.pregnancyyes.duvidas">Não consuma álcool antes dos 18 anos, principalmente caso esteja ou possa estar grávida.</string>
-    
+    <string name="feedback.uso.nocivo">Resultados do seu teste</string>
+    <string name="feedback.uso.nocivo1">O seu consumo pode ser considerado Nocivo à sua saúde</string>
+    <string name="feedback.uso.nocivo2">Considerando as suas respostas, seu consumo de álcool já pode causar problemas para a sua saúde.</string>
+    <string name="feedback.uso.nocivo3">Quanto maior o número de sintomas que você apresentou, mais urgente é a sua necessidade de mudança</string>
+    <string name="feedback.uso.nocivo4">Muitos destes possíveis problemas pode demorar para aparecem, apesar de poderem ser graves no futuro</string>
+    <string name="feedback.uso.nocivo5">Baseado nos seus resultados recomendamos que você considere continuar usando o site e/ou conversar com um profissional de saúde sobre o seu consumo</string>
     <string name="audit3_week">Em uma semana típica, durante os últimos 6 meses, quantas doses você costumava ingerir consumir nestes dias da semana?</string>
     <string name="monday">Segunda-Feira</string>
     <string name="tuesday">Terça-Feira</string>
