@@ -41,7 +41,8 @@
             android:layout_weight="1"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:text="@string/welcome.2"
-            android:textColor="@color/colorAccent"/>
+            android:textColor="@color/colorAccent"
+            android:id="@+id/text"/>
 
         <TextView
             android:layout_width="wrap_content"
