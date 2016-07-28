@@ -114,7 +114,7 @@
     <string name="feedback.pregnancyyes.pergunta1.3">O álcool que você consome afeta o desenvolvimento do seu bebe</string>
     <string name="feedback.pregnancyyes.pergunta2">2. Existe algum tipo de bebida alcoólica que é segura para ser usada durante a gravidez?</string>
     <string name="feedback.pregnancyyes.pergunta2.1">Não, não existe</string>
-    <string name="feedback.pregnancyyes.pergunta2.2">Toda a bebida que contém álcool, mesmo que em menor quantidade, pode prejudicar o se bebê</string>
+    <string name="feedback.pregnancyyes.pergunta2.2">Toda a bebida que contém álcool, mesmo que em menor quantidade, pode prejudicar você e o seu bebê</string>
     <string name="feedback.pregnancyyes.pergunta2.3">Por bebidas alcoólicas estamos nos referindo à todas, mesmo cerveja, vinho, coquetéis, "ice" ou qualquer outra mistura que contenha álcool</string>
     <string name="feedback.pregnancyyes.pergunta3">3. Caso tivesse bebido durante minha última gestação e não tive problemas. Tudo bem eu beber desta vez?</string>
     <string name="feedback.pregnancyyes.pergunta3.1">Não, cada gestação é diferente</string>
@@ -122,7 +122,7 @@
     <string name="feedback.pregnancyyes.pergunta3.3">Você poderia ter tido uma criança que nasceu saudável, mas também poderia ter tido uma criança nascida com problemas</string>
     <string name="feedback.pregnancyyes.pergunta4">4. Os problemas que meu bebê pode ter por eu ter bebido vão melhorar com o tempo?</string>
     <string name="feedback.pregnancyyes.pergunta4.1">Não, os problemas afetar o desenvolvimento de sua criança</string>
-    <string name="feedback.pregnancyyes.pergunta4.2">Em alguns casos mais graves, mesmo quando adulto sua criança precisará de cuidados e</string>
+    <string name="feedback.pregnancyyes.pergunta4.2">Em alguns casos mais graves, mesmo quando adulto sua criança precisará de cuidados especiais</string>
     <string name="feedback.pregnancyyes.pergunta5">5. O que eu faço se estou grávida, mas mesmo assim tenho bebido?</string>
     <string name="feedback.pregnancyyes.pergunta5.1">Caso tenha bebido álcool antes de saber que estava grávida, para de beber agora e procure um profissional de saúde</string>
     <string name="feedback.pregnancyyes.pergunta5.2">Você se sentirá melhor e o seu bebê terá uma grande chance de nascer saudável</string>
@@ -162,6 +162,14 @@
     <string name="feedback.underagedrinkingyes.duvidas11">3- Procure manter-se longe de pessoas ou lugares que fazem com que você beba.</string>
     <string name="feedback.underagedrinkingyes.duvidas12">4- Caso você não consiga parar de beber, procure um profissional de saúde e peça ajuda.</string>
     <string name="feedback.underagedrinkingyes.duvidas13">Caso não tenha acesso à um profissional de saúde utilize o Viva Voz (Disque 132 - ligação gratuita)</string>
+    <string name="feedback.underage.pregnancyyes">Informações para Gestantes menores de 18 anos</string>
+    <string name="feedback.underage.pregnancyyes.titulo">Cuidado - você e seu futuro bebê estão em risco!</string>
+    <string name="feedback.underage.pregnancyyes1">Você relatou beber e que pode estar grávida - O consumo de álcool é muito prejudicial para adolescentes e extremamente prejudicial para o bom desenvolvimento do seu bebê.</string>
+    <string name="feedback.underage.pregnancyyes.recomendacoes">Toda gravidez na adolescência pode ser considerada uma gravidez de risco - Procure um profissional de saúde para obter mais orientações sobre quais cuidados deve tomar.</string>
+    <string name="feedback.underage.pregnancyyes.recomendacoes1">Recomendamos fortemente que pare de beber e que procure, assim que possível, um profissional de saúde que possa ajudá-la.</string>
+    <string name="feedback.underage.pregnancyyes.recomendacoes2">Este site ainda não possui ferramentas específicas para gestantes e para adolescentes.</string>
+    <string name="feedback.underage.pregnancyyes.recomendacoes3">Recomendamos que leia as perguntas e respostas sobre álcool e gravidez na adolescência a seguir, elas podem lhe ajudar.</string>
+    <string name="feedback.underage.pregnancyyes.duvidas">Não consuma álcool antes dos 18 anos, principalmente caso esteja ou possa estar grávida.</string>
     <string name="audit3_week">Em uma semana típica, durante os últimos 6 meses, quantas doses você costumava ingerir consumir nestes dias da semana?</string>
     <string name="monday">Segunda-Feira</string>
     <string name="tuesday">Terça-Feira</string>
