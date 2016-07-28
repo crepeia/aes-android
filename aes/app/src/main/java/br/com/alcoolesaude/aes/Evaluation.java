@@ -9,20 +9,13 @@ import java.util.Date;
 public class Evaluation {
 
     private Date dateCreated;
+    private Date syncDate;
     private Date birth;
     private String gender;
     private Boolean drink;
     private Integer audit1;
     private Integer audit2;
     private Integer audit3;
-    private Integer monday;
-    private Integer tuesday;
-    private Integer wednesday;
-    private Integer thursday;
-    private Integer friday;
-    private Integer saturday;
-    private Integer sunday;
-
     private Integer audit4;
     private Integer audit5;
     private Integer audit6;
@@ -30,6 +23,21 @@ public class Evaluation {
     private Integer audit8;
     private Integer audit9;
     private Integer audit10;
+    private Integer monday;
+    private Integer tuesday;
+    private Integer wednesday;
+    private Integer thursday;
+    private Integer friday;
+    private Integer saturday;
+    private Integer sunday;
+    private String email;
+
+
+
+
+    public Evaluation(){
+        dateCreated = new Date();
+    }
 
     public void setBirth(int year, int month, int day) {
         Calendar cal = Calendar.getInstance();
@@ -203,5 +211,21 @@ public class Evaluation {
 
     public void setAudit10(Integer audit10) {
         this.audit10 = audit10;
+    }
+
+    public Date getSyncDate() {
+        return syncDate;
+    }
+
+    public void setSyncDate(Date syncDate) {
+        this.syncDate = syncDate;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

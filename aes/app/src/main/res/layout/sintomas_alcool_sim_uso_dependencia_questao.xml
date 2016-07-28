@@ -12,14 +12,16 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="4"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="1">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.pregnancyyes.recomendacoes.titulo"/>
+            android:text="@string/dependency"
+            android:layout_weight="0.2"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,23 +29,49 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyyes.recomendacoes.1"/>
+            android:text="@string/dependency.question"
+            android:layout_weight="1" />
 
-        <TextView
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyyes.recomendacoes.2"/>
+            android:layout_gravity="left"
+            android:id="@+id/radioGroupAudit7">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyyes.recomendacoes.3"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/yes"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/primaryText"
+                android:id="@+id/dependencyyes"/>
+
+
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/no"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/primaryText"
+                android:id="@+id/dependencyno"/>
+
+
+
+
+
+        </RadioGroup>
+
+
+
 
     </LinearLayout>
     <LinearLayout
@@ -52,14 +80,12 @@
         android:layout_weight="0"
         android:orientation="vertical">
 
-
-
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="1.49"
         android:orientation="horizontal"
         android:gravity="center">
         <LinearLayout
