@@ -12,7 +12,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="3.63"
         android:orientation="vertical"
         android:weightSum="1">
         <TextView
@@ -29,22 +29,33 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
+            android:text="@string/feedback.underage.pregnancyyes.titulo"
+            android:id="@+id/textView7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorPrimaryDark"
             android:text="@string/feedback.underage.pregnancyyes1"
             android:id="@+id/textView2"
-            android:layout_weight="0.69" />
+            android:layout_weight="0.52" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="1">
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/feedback.pregnancyyes.button.1"
             android:padding="20dp"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.13" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -56,7 +67,7 @@
             android:layout_height="wrap_content"
             android:text="@string/feedback.pregnancyyes.button.3"
             android:padding="20dp"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF" />
 
 
 
@@ -65,7 +76,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="3"
+        android:layout_weight="1.15"
         android:orientation="horizontal"
         android:gravity="center">
         <LinearLayout
