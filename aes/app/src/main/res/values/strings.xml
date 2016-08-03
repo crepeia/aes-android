@@ -249,5 +249,17 @@
     <string name="dependency.4">- Geralmente conhecido como alcoolismo, a dependência do uso de álcool é uma consequência do seu consumo abusivo</string>
     <string name="dependency.5">- Os problemas relacionados ao consumo de álcool são considerados problemas de saúde importantes e exigem cuidado</string>
     <string name="dependency.question">Você gostaria de adicionalmente conhecer algumas estratégias práticas que podem lhe ajudar com este problema ?</string>
+    <string name="baixo.risco">Recomendações - Uso de Baixo Risco</string>
+    <string name="baixo.risco2">O seu uso de álcool foi considerado de baixo risco</string>
+    <string name="baixo.risco3">Recomendações</string>
+    <string name="baixo.risco4">Recomendações especiais</string>
+    <string name="baixo.risco5">Mais informações</string>
+    <string name="baixo.risco6">Baixo Risco não quer dizer Sem Risco - Logo, sugerimos que siga as seguintes recomendações:</string>
+    <string name="baixo.risco7">Beba no máximo 2 doses por dia e</string>
+    <string name="baixo.risco8">não mais que 10 doses por semana.</string>
+    <string name="baixo.risco9">Caso beber mais que isso, considere fazer esta avaliação novamente para iniciar um plano de mudança</string>
+    <string name="baixo.risco10">Nós indicamos que você consuma menos álcool ou pare de beber se:</string>
+    <string name="baixo.risco11">Tomar medicações que tem efeito com álcool como por exemplo: (1); (2); (3)</string>
+    <string name="baixo.risco12">Tiver um problema de saúde que seja piorado com o uso de álcool - .</string>
 </resources>
 
