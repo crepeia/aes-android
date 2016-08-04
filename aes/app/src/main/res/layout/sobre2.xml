@@ -11,39 +11,66 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="4.43"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/colorPrimaryDark"
-            android:text="@string/baixo.risco4"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/primaryText"
-            android:text="@string/limites.mais65.5"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/primaryText"
-            android:text="@string/limites.mais65.6"/>
-
+        android:layout_weight="4.01"
+        android:orientation="vertical"
+        android:weightSum="1">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/sobre.1"
+            android:layout_weight="0.15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/limites.mais65.7"/>
+            android:text="@string/sobre.8"
+            android:layout_weight="0.17" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/primaryText"
+            android:text="@string/sobre.9"
+            android:layout_weight="0.15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/primaryText"
+            android:text="@string/sobre.10"
+            android:layout_weight="0.12"
+            android:id="@+id/textView12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/primaryText"
+            android:text="@string/sobre.11"
+            android:layout_weight="0.10"
+            android:id="@+id/textView13" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/primaryText"
+            android:text="@string/sobre.12"
+            android:layout_weight="0.10"
+            android:id="@+id/textView14" />
+
 
     </LinearLayout>
     <LinearLayout
@@ -52,14 +79,11 @@
         android:layout_weight="0"
         android:orientation="vertical">
 
-
-
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1.50"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center">
         <LinearLayout

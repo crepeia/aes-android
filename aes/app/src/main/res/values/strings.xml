@@ -259,8 +259,8 @@
     <string name="baixo.risco8">não mais que 10 doses por semana.</string>
     <string name="baixo.risco9">Caso beber mais que isso, considere fazer esta avaliação novamente para iniciar um plano de mudança</string>
     <string name="baixo.risco10">Nós indicamos que você consuma menos álcool ou pare de beber se:</string>
-    <string name="baixo.risco11">Tomar medicações que tem efeito com álcool como por exemplo: (1); (2); (3)</string>
-    <string name="baixo.risco12">Tiver um problema de saúde que seja piorado com o uso de álcool - .</string>
+    <string name="baixo.risco11">Tomar medicações que interagem com álcool.</string>
+    <string name="baixo.risco12">Tiver um problema de saúde que seja piorado com o uso de álcool.</string>
     <string name="limites.mais65.1">Recomendações</string>
     <string name="limites.mais65.2">Para mulheres e homens com mais de 65 anos</string>
     <string name="limites.mais65.3">Nós recomendamos que você beba no máximo 1 doses por dia e</string>
@@ -269,5 +269,30 @@
     <string name="limites.mais65.6">Tome medicações que interajam com álcool. Obtenha mais informações com o seu médico. </string>
     <string name="limites.mais65.7">Tenha uma condição de saúde que possa agravar com o uso de álcool.</string>
     <string name="limites.mais65.8">Se for mulher e estiver grávida, recomendamos abstinência.</string>
+    <string name="sobre.1">Os autores</string>
+    <string name="sobre.2">Prof. Dr. Telmo Mota Ronzani (UFJF)</string>
+    <string name="sobre.3">Profa. Dra. Laisa Sartes (UFJF)</string>
+    <string name="sobre.4">Prof. Dr. Heder Soares Bernardino (UFJF)</string>
+    <string name="sobre.5">Ms. Henrique Pinto Gomide (UFJF)</string>
+    <string name="sobre.6">Prof. Ms. Leonardo Fernandes Martins (UFJF)</string>
+    <string name="sobre.7">Ms. Andressa Bianchi Gumier (UFJF)</string>
+    <string name="sobre.8">Daniela Aparecida Pereira (UFJF)</string>
+    <string name="sobre.9">Thiago Costa Rizuti da Rocha (UFJF)</string>
+    <string name="sobre.10">Nathalia Munck Machado (UFJF)</string>
+    <string name="sobre.11">Felipe Rafael de Souza (UFJF)</string>
+    <string name="sobre.12">Raiza Campos (UFJF)</string>
+    <string name="baixorisco.intro">Resultados</string>
+    <string name="baixorisco.intro.1">Em algumas ocasiões você tem bebido acima do recomendado</string>
+    <string name="baixorisco.intro.2">Apesar do seu consumo poder ser considerado de baixo risco, você tem bebido em algumas ocasiões acima do que é recomendado para você</string>
+    <string name="baixorisco.intro.3">Muitos dos problemas de saúde relacionados ao uso do álcool demoram para aparecer e dependem da quantidade que você bebe</string>
+    <string name="baixorisco.intro.4">A Organização Mundial da Saúde recomenda os seguintes limites:</string>
+    <string name="baixorisco.intro.5">Sexo Masculino</string>
+    <string name="baixorisco.intro.6">Dia: Até 2 doses por dia </string>
+    <string name="baixorisco.intro.7">Semana:Não mais que 10 doses por semana</string>
+    <string name="baixorisco.intro.8">O consumo de quantidades maiores do que estas está associado com diversos problemas de saúde</string>
+    <string name="baixorisco.intro.9">Sexo Feminino</string>
+    <string name="baixorisco.intro.10">Dia:Até uma dose 1 por dia</string>
+    <string name="baixorisco.intro.11">Pesquisas apontam que o consumo de álcool está associado com diversos problemas</string>
+
 </resources>
 
