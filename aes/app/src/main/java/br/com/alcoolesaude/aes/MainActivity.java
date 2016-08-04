@@ -27,6 +27,8 @@ import org.ksoap2.transport.HttpTransportSE;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import br.com.alcoolesaude.aes.R;
+
 
 public class MainActivity extends AppCompatActivity {
 
