@@ -19,7 +19,7 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.abstainers.limits"/>
+            android:text="@string/feedback_abstainers_limits"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.abstainers.limits.men"/>
+            android:text="@string/feedback_abstainers_limits_men"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
             android:layout_marginBottom="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.abstainers.limits.women"/>
+            android:text="@string/feedback_abstainers_limits_women"/>
 
     </LinearLayout>
     <LinearLayout

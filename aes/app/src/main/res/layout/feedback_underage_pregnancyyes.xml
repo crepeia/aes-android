@@ -20,7 +20,7 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.underage.pregnancyyes"/>
+            android:text="@string/feedback_underage_pregnancyyes"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.underage.pregnancyyes.titulo"
+            android:text="@string/feedback_underage_pregnancyyes_titulo"
             android:id="@+id/textView7" />
 
         <TextView
@@ -37,7 +37,7 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.underage.pregnancyyes1"
+            android:text="@string/feedback_underage_pregnancyyes1"
             android:id="@+id/textView2"
             android:layout_weight="0.52" />
     </LinearLayout>
@@ -51,20 +51,20 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/feedback.pregnancyyes.button.1"
+            android:text="@string/feedback_pregnancyyes_button_1"
             android:padding="20dp"
             android:textColor="#FFFFFF"
             android:layout_weight="0.13" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/feedback.pregnancyyes.button.2"
+            android:text="@string/feedback_pregnancyyes_button_2"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/feedback.pregnancyyes.button.3"
+            android:text="@string/feedback_pregnancyyes_button_3"
             android:padding="20dp"
             android:textColor="#FFFFFF" />
 

@@ -19,14 +19,14 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/audit.text"/>
+            android:text="@string/audit_text"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/audit.9"/>
+            android:text="@string/audit_9"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -53,7 +53,7 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/audit.yes.yearNo"
+                android:text="@string/audit_yes_yearNo"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primaryText"
                 android:id="@+id/radioButtonAudit9.2"/>
@@ -61,7 +61,7 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/audit.yes.yearYes"
+                android:text="@string/audit_yes_yearYes"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primaryText"
                 android:id="@+id/radioButtonAudit9.3"/>

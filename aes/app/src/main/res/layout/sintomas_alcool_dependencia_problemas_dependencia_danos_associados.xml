@@ -20,7 +20,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/dependecy.button1"/>
+            android:text="@string/dependecy_button1"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/problems.dependency"
+            android:text="@string/problems_dependency"
             android:layout_weight="1" />
 
 

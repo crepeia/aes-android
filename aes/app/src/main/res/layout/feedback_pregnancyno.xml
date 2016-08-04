@@ -20,7 +20,7 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.pregnancyno.titulo"/>
+            android:text="@string/feedback_pregnancyno_titulo"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.pregnancyno.intro"
+            android:text="@string/feedback_pregnancyno_intro"
             android:id="@+id/textView2" />
     </LinearLayout>
     <LinearLayout
@@ -40,19 +40,19 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/feedback.pregnancyyes.button.1"
+            android:text="@string/feedback_pregnancyyes_button_1"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/feedback.pregnancyyes.button.2"
+            android:text="@string/feedback_pregnancyyes_button_2"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/feedback.pregnancyyes.button.3"
+            android:text="@string/feedback_pregnancyyes_button_3"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
 

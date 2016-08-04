@@ -19,7 +19,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/baixo.risco3"/>
+            android:text="@string/baixo_risco3"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,7 +27,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/limites.mais65.3"/>
+            android:text="@string/limites_mais65_3"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -35,7 +35,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/limites.mais65.4"/>
+            android:text="@string/limites_mais65_4"/>
 
     </LinearLayout>
     <LinearLayout

@@ -20,7 +20,7 @@
             android:layout_marginBottom="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/sobre.1"
+            android:text="@string/sobre_1"
             android:layout_weight="0.15" />
 
         <TextView
@@ -29,7 +29,7 @@
             android:layout_marginBottom="0dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/sobre.2"
+            android:text="@string/sobre_2"
             android:layout_weight="0.23" />
 
         <TextView
@@ -38,7 +38,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/sobre.3"
+            android:text="@string/sobre_3"
             android:layout_weight="0.20" />
 
         <TextView
@@ -47,7 +47,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/sobre.4"
+            android:text="@string/sobre_4"
             android:layout_weight="0.12"
             android:id="@+id/textView12" />
 
@@ -57,7 +57,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/sobre.5"
+            android:text="@string/sobre_5"
             android:layout_weight="0.10"
             android:id="@+id/textView13" />
 
@@ -67,7 +67,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/sobre.6"
+            android:text="@string/sobre_6"
             android:layout_weight="0.10"
             android:id="@+id/textView14" />
 
@@ -77,7 +77,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/sobre.7"
+            android:text="@string/sobre_7"
             android:layout_weight="0.10"
             android:id="@+id/textView15" />
 

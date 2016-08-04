@@ -20,7 +20,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.pregnancyno.experimentar.titulo"/>
+            android:text="@string/feedback_pregnancyno_experimentar_titulo"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyno.experimentar.7"/>
+            android:text="@string/feedback_pregnancyno_experimentar_7"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -36,7 +36,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyno.experimentar.8"/>
+            android:text="@string/feedback_pregnancyno_experimentar_8"/>
 
     </LinearLayout>
     <LinearLayout
