@@ -91,7 +91,6 @@ public class MainActivity extends AppCompatActivity {
                     params.put("sunday", String.valueOf(evaluation.getSunday()));
                     params.put("email", evaluation.getEmail());
                     params.put("key", key);
-
                     return params;
                 }
             };
@@ -123,7 +122,6 @@ public class MainActivity extends AppCompatActivity {
             }
             setContentView(R.layout.question_birth);
         }
-
     }
 
     public void birthQuestionBack(View view){
@@ -155,6 +153,43 @@ public class MainActivity extends AppCompatActivity {
             }else {
                 evaluation.setDrink(false);
             }
+            setContentView(R.layout.activity_main);
+        }
+    }
+
+    public void audit1QuestionNext(View view){
+        RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit1);
+        int selectedId = radiogroup.getCheckedRadioButtonId();
+
+        RadioButton radioButton = (RadioButton) findViewById(selectedId);
+        if(radioButton != null){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_1))){
+                evaluation.setAudit1(1);
+            }else{
+                evaluation.setAudit1(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_2))){
+                evaluation.setAudit1(1);
+            }else{
+                evaluation.setAudit1(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_3))){
+                evaluation.setAudit1(1);
+            }else{
+                evaluation.setAudit1(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_4))){
+                evaluation.setAudit1(1);
+            }else{
+                evaluation.setAudit1(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_5))){
+                evaluation.setAudit1(1);
+            }else{
+                evaluation.setAudit1(0);
+            }
+
+
             setContentView(R.layout.activity_main);
         }
     }
