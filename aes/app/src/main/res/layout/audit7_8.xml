@@ -118,7 +118,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/next"
-                android:onClick="drinkQuestionNext"
+                android:onClick="audit8QuestionNext"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
                 />
