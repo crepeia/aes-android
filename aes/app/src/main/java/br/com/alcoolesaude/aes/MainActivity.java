@@ -17,8 +17,13 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+<<<<<<< HEAD
 import com.android.volley.toolbox.Volley;
 */
+=======
+import com.android.volley.toolbox.Volley;*/
+
+>>>>>>> 94f5cb97483966d4e468c45126cf917134465743
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.SoapObject;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
@@ -96,8 +101,13 @@ public class MainActivity extends AppCompatActivity {
             };
             queue.add(stringRequest);
         }
+<<<<<<< HEAD
     }
 */
+=======
+    }*/
+
+>>>>>>> 94f5cb97483966d4e468c45126cf917134465743
     public void startEvaluation(View view){
         evaluation = new Evaluation();
         evaluation.setDateCreated(new Date());
@@ -487,6 +497,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+<<<<<<< HEAD
     public void abstainerLimits(View view){
         setContentView(R.layout.feedback_abstainers_limits);
     }
@@ -582,5 +593,31 @@ public class MainActivity extends AppCompatActivity {
     public void pregnancyyesStop2(View view){
         setContentView(R.layout.feedback_pregnancyyes_comoparar2);
     }
+=======
+    public void mainBack(View view){
+        setContentView(R.layout.activity_main);
+    }
+
+    public void riscoProblemasBack(View view){
+        setContentView(R.layout.sintomas_alcool_risco_problemas);
+    }
+
+    public void riscoProblemasAcidentes(View view){
+        setContentView(R.layout.sintomas_alcool_risco_problemas_acidente);
+    }
+
+    public void riscoProblemasSaude(View view){
+        setContentView(R.layout.sintomas_alcool_risco_problemas_saude);
+    }
+
+    public void riscoProblemasFeto(View view){
+        setContentView(R.layout.sintomas_alcool_risco_problemas_feto);
+    }
+
+    public void riscoProblemasDependencia(View view){
+        setContentView(R.layout.sintomas_alcool_risco_problemas_dependencia_danos_associados);
+    }
+
+>>>>>>> 94f5cb97483966d4e468c45126cf917134465743
 }
 
