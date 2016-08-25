@@ -423,4 +423,28 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.audit7_9);
     }
 
+    public void mainBack(View view){
+        setContentView(R.layout.activity_main);
+    }
+
+    public void riscoProblemasBack(View view){
+        setContentView(R.layout.sintomas_alcool_risco_problemas);
+    }
+
+    public void riscoProblemasAcidentes(View view){
+        setContentView(R.layout.sintomas_alcool_risco_problemas_acidente);
+    }
+
+    public void riscoProblemasSaude(View view){
+        setContentView(R.layout.sintomas_alcool_risco_problemas_saude);
+    }
+
+    public void riscoProblemasFeto(View view){
+        setContentView(R.layout.sintomas_alcool_risco_problemas_feto);
+    }
+
+    public void riscoProblemasDependencia(View view){
+        setContentView(R.layout.sintomas_alcool_risco_problemas_dependencia_danos_associados);
+    }
+
 }
