@@ -12,13 +12,13 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.volley.Request;
+/*import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-
+*/
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.SoapObject;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
@@ -39,12 +39,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.feedback_pregnancyyes);
 
 
     }
 
-    public void syncData(){
+    /*public void syncData(){
         if(evaluation != null && evaluation.getSyncDate() == null) {
 
             RequestQueue queue = Volley.newRequestQueue(this);
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
             queue.add(stringRequest);
         }
     }
-
+*/
     public void startEvaluation(View view){
         evaluation = new Evaluation();
         evaluation.setDateCreated(new Date());
@@ -487,4 +487,100 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void abstainerLimits(View view){
+        setContentView(R.layout.feedback_abstainers_limits);
+    }
+
+    public void backBack(View view){
+        setContentView(R.layout.activity_main);
+    }
+
+    public void abstainerProblems(View view){
+        setContentView(R.layout.feedback_abstainers_problems);
+    }
+
+    public void pregnancynoRecommended(View view){
+        setContentView(R.layout.feedback_pregnancyno_recomendacoes);
+    }
+
+    public void pregnancynoDoubt(View view){
+        setContentView(R.layout.feedback_pregnancyno_duvidas1);
+    }
+
+    public void pregnancynoRecommendednext(View view){
+        setContentView(R.layout.feedback_pregnancyno_recomendacoes2);
+    }
+
+    public void pregnancynoRecommendednextnext(View view){
+        setContentView(R.layout.feedback_pregnancyno_recomendacoes3);
+    }
+
+    public void pregnancynoBack(View view){
+        setContentView(R.layout.feedback_pregnancyno);
+    }
+
+    public void pregnancynoDoubtc(View view){
+        setContentView(R.layout.feedback_pregnancyno_continuarsembeber);
+    }
+
+    public void pregnancynoExperience(View view){
+        setContentView(R.layout.feedback_pregnancyno_experimentar);
+    }
+
+    public void pregnancynoExperience2(View view){
+        setContentView(R.layout.feedback_pregnancyno_experimentar2);
+    }
+
+    public void pregnancynoExperience3(View view){
+        setContentView(R.layout.feedback_pregnancyno_experimentar3);
+    }
+
+    public void pregnancyyesRecommended(View view){
+        setContentView(R.layout.feedback_pregnancyyes_recomendacoes);
+    }
+    public void pregnancyyesDoubt(View view){
+        setContentView(R.layout.feedback_pregnancyyes_duvidas1);
+    }
+    public void pregnancyyesBack(View view){
+        setContentView(R.layout.feedback_pregnancyyes);
+    }
+    public void pregnancyyesRecommendedNext(View view){
+        setContentView(R.layout.feedback_pregnancyyes_duvidas1);
+    }
+
+    public void pregnancyyesConsumo(View view){
+        setContentView(R.layout.feedback_pregnancyyes_consumo);
+    }
+
+    public void pregnancyyesBebida(View view){
+        setContentView(R.layout.feedback_pregnancyyes_tipobebida);
+    }
+
+    public void pregnancyyesSegunda(View view){
+        setContentView(R.layout.feedback_pregnancyyes_segundagestacao);
+    }
+
+    public void pregnancyyesRecommendedNextnext(View view){
+        setContentView(R.layout.feedback_pregnancyyes_duvidas2);
+    }
+
+    public void pregnancyyesProblems(View view){
+        setContentView(R.layout.feedback_pregnancyyes_problemasbebe);
+    }
+
+    public void pregnancyyesWhatdo(View view){
+        setContentView(R.layout.feedback_pregnancyyes_oquefazer1);
+    }
+
+    public void pregnancyyesWhatdo2(View view){
+        setContentView(R.layout.feedback_pregnancyyes_oquefazer2);
+    }
+    public void pregnancyyesStop(View view){
+        setContentView(R.layout.feedback_pregnancyyes_comoparar1);
+    }
+
+    public void pregnancyyesStop2(View view){
+        setContentView(R.layout.feedback_pregnancyyes_comoparar2);
+    }
 }
+

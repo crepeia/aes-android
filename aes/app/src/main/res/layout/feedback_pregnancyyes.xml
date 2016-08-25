@@ -42,12 +42,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/feedback_pregnancyyes_button_1"
+            android:onClick="pregnancyyesRecommended"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/feedback_pregnancyyes_button_2"
+            android:onClick="pregnancyyesDoubt"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
@@ -76,7 +78,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/back"
-                android:onClick="drinkQuestionBack"
+                android:onClick="backBack"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
                 />

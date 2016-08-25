@@ -12,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="1">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -28,7 +29,8 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
             android:text="@string/feedback_pregnancyyes_intro"
-            android:id="@+id/textView2" />
+            android:id="@+id/textView2"
+            android:layout_weight="0.92" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,18 +42,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/feedback_pregnancyyes_duvidas_1"
+            android:onClick="pregnancyyesConsumo"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/feedback_pregnancyyes_duvidas_2"
+            android:onClick="pregnancyyesBebida"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/feedback_pregnancyyes_duvidas_3"
+            android:onClick="pregnancyyesSegunda"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
 
@@ -62,7 +67,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="3"
+        android:layout_weight="1.75"
         android:orientation="horizontal"
         android:gravity="center">
         <LinearLayout
@@ -74,7 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/back"
-                android:onClick="drinkQuestionBack"
+                android:onClick="pregnancyyesBack"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
                 />
@@ -89,7 +94,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/next"
-                android:onClick="drinkQuestionBack"
+                android:onClick="pregnancyyesRecommendedNextnext"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
                 android:id="@+id/button2" />
