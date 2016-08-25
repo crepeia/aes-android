@@ -228,4 +228,70 @@ public class Evaluation {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public boolean isFemale() {
+        return this.gender == "F";}
+
+    public boolean isMale() {
+        return this.gender == "M";}
+
+    public int getAudit3Sum() {
+        return this.audit1 + this.audit2 + this.audit3; }
+
+    public boolean audit3LimitExceeded() {
+        return getAudit3Sum() > 6;}
+
+
+    public boolean dayLimitExceeded() {
+        int limit =  isFemale() ? 1 : 2;
+        if (sunday != null && sunday > limit){
+            return true;}
+        if (monday != null && monday > limit) {
+            return true;}
+        if (tuesday != null && tuesday > limit) {
+            return true;}
+        if (wednesday != null && wednesday > limit) {
+            return true;}
+        if (thursday != null && thursday > limit) {
+            return true;}
+        if (friday != null && friday > limit) {
+            return true;}
+        if (saturday != null && saturday > limit) {
+            return true;}
+        else{
+            return false;}
+    }
+
+    public boolean weekLimitExceeded(){
+        int limit =  isFemale() ? 5 : 10;
+        return getWeekTotal() > limit;
+    }
+
+    public int getWeekTotal() {
+        return sunday + monday + tuesday + wednesday + thursday + friday + saturday;
+    }
+
+    public int getAge() {
+        Calendar today = Calendar.getInstance();
+        Calendar birthCal = Calendar.getInstance();
+        birthCal.setTime(birth);
+
+        if (today.get(Calendar.MONTH) < birthCal.get(Calendar.MONTH)) {
+            return (today.get(Calendar.YEAR) - birthCal.get(Calendar.YEAR) - 1);
+
+        } else if (today.get(Calendar.MONTH) == birthCal.get(Calendar.MONTH)
+                && today.get(Calendar.DAY_OF_MONTH) < birthCal.get(Calendar.DAY_OF_MONTH)) {
+            return (today.get(Calendar.YEAR) - birthCal.get(Calendar.YEAR) - 1);
+
+        } else {
+            return today.get(Calendar.YEAR) - birthCal.get(Calendar.YEAR);
+        }
+
+    }
+
+    public int getAuditFullSum() {
+        return audit1 + audit2 + audit3 + audit4 + audit5 + audit6 + audit7 + audit8 + audit9 + audit10;
+    }
+
+
 }

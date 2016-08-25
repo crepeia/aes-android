@@ -12,12 +12,12 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.volley.Request;
+/*import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
+import com.android.volley.toolbox.Volley;*/
 
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.SoapObject;
@@ -27,6 +27,9 @@ import org.ksoap2.transport.HttpTransportSE;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 import br.com.alcoolesaude.aes.R;
 
 
@@ -44,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void syncData(){
+    /*public void syncData(){
         if(evaluation != null && evaluation.getSyncDate() == null) {
 
             RequestQueue queue = Volley.newRequestQueue(this);
@@ -96,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
             };
             queue.add(stringRequest);
         }
-    }
+    }*/
 
     public void startEvaluation(View view){
         evaluation = new Evaluation();
@@ -157,42 +160,26 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void audit1QuestionNext(View view){
+    public void audit1QuestionNext(View view) {
         RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit1);
         int selectedId = radiogroup.getCheckedRadioButtonId();
 
         RadioButton radioButton = (RadioButton) findViewById(selectedId);
-        if(radioButton != null){
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_1))){
+        if (radioButton != null) {
+            if (String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_1)))
                 evaluation.setAudit1(1);
-            }else{
-                evaluation.setAudit1(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_2))){
-                evaluation.setAudit1(1);
-            }else{
-                evaluation.setAudit1(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_3))){
-                evaluation.setAudit1(1);
-            }else{
-                evaluation.setAudit1(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_4))){
-                evaluation.setAudit1(1);
-            }else{
-                evaluation.setAudit1(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_5))){
-                evaluation.setAudit1(1);
-            }else{
-                evaluation.setAudit1(0);
-            }
-
-
-            setContentView(R.layout.activity_main);
+            if (String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_2)))
+                evaluation.setAudit1(2);
+            if (String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_3)))
+                evaluation.setAudit1(3);
+            if (String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_4)))
+                evaluation.setAudit1(4);
+            if (String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_5)))
+                evaluation.setAudit1(5);
+            setContentView(R.layout.audit3_2);
         }
     }
+
 
     public void audit2QuestionNext(View view){
         RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit2);
@@ -200,34 +187,19 @@ public class MainActivity extends AppCompatActivity {
 
         RadioButton radioButton = (RadioButton) findViewById(selectedId);
         if(radioButton != null){
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_2_1))){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_2_1)))
                 evaluation.setAudit2(1);
-            }else{
-                evaluation.setAudit2(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_2_2))){
-                evaluation.setAudit2(1);
-            }else{
-                evaluation.setAudit2(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_2_3))){
-                evaluation.setAudit2(1);
-            }else{
-                evaluation.setAudit2(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_2_4))){
-                evaluation.setAudit2(1);
-            }else{
-                evaluation.setAudit2(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_2_5))){
-                evaluation.setAudit2(1);
-            }else{
-                evaluation.setAudit2(0);
-            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_2_2)))
+                evaluation.setAudit2(2);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_2_3)))
+                evaluation.setAudit2(3);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_2_4)))
+                evaluation.setAudit2(4);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_2_5)))
+                evaluation.setAudit2(5);
 
 
-            setContentView(R.layout.activity_main);
+            setContentView(R.layout.audit3_3);
         }
     }
 
@@ -237,37 +209,29 @@ public class MainActivity extends AppCompatActivity {
 
         RadioButton radioButton = (RadioButton) findViewById(selectedId);
         if(radioButton != null){
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_3_1))){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_3_1)))
                 evaluation.setAudit3(1);
-            }else{
-                evaluation.setAudit3(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_3_2))){
-                evaluation.setAudit3(1);
-            }else{
-                evaluation.setAudit3(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_3_3))){
-                evaluation.setAudit3(1);
-            }else{
-                evaluation.setAudit3(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_3_4))){
-                evaluation.setAudit3(1);
-            }else{
-                evaluation.setAudit3(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_3_5))){
-                evaluation.setAudit3(1);
-            }else{
-                evaluation.setAudit3(0);
-            }
-
-
-            setContentView(R.layout.activity_main);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_3_2)))
+                evaluation.setAudit3(2);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_3_3)))
+                evaluation.setAudit3(3);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_3_4)))
+                evaluation.setAudit3(4);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_3_5)))
+                evaluation.setAudit3(5);
         }
+        this.audit3();
     }
 
+    public void audit3(){
+        if(evaluation.audit3LimitExceeded() || evaluation.dayLimitExceeded() || evaluation.weekLimitExceeded()){
+            setContentView(R.layout.audit7_4);
+        }else if(evaluation.isMale() && evaluation.getAge() <= 65){
+            setContentView(R.layout.feedback_recomendar_limites_homens_65anos);
+        }else if(evaluation.isMale() && evaluation.getAge() > 65 || evaluation.isFemale()){
+            setContentView(R.layout.feedback_recomendar_limites_homens_mulheres_mais65anos);
+        }
+    }
 
     public void audit4QuestionNext(View view){
         RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit4);
@@ -275,31 +239,17 @@ public class MainActivity extends AppCompatActivity {
 
         RadioButton radioButton = (RadioButton) findViewById(selectedId);
         if(radioButton != null){
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_never))){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_never)))
                 evaluation.setAudit4(1);
-            }else{
-                evaluation.setAudit4(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_once))){
-                evaluation.setAudit4(1);
-            }else{
-                evaluation.setAudit4(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_monthly))){
-                evaluation.setAudit4(1);
-            }else{
-                evaluation.setAudit4(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_weekly))){
-                evaluation.setAudit4(1);
-            }else{
-                evaluation.setAudit4(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_every_day))){
-                evaluation.setAudit4(1);
-            }else{
-                evaluation.setAudit4(0);
-            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_once)))
+                evaluation.setAudit4(2);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_monthly)))
+                evaluation.setAudit4(3);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_weekly)))
+                evaluation.setAudit4(4);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_every_day)))
+                evaluation.setAudit4(5);
+            setContentView(R.layout.audit7_5);
         }
     }
 
@@ -309,31 +259,17 @@ public class MainActivity extends AppCompatActivity {
 
         RadioButton radioButton = (RadioButton) findViewById(selectedId);
         if(radioButton != null){
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_never))){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_never)))
                 evaluation.setAudit5(1);
-            }else{
-                evaluation.setAudit5(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_once))){
-                evaluation.setAudit5(1);
-            }else{
-                evaluation.setAudit5(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_monthly))){
-                evaluation.setAudit5(1);
-            }else{
-                evaluation.setAudit5(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_weekly))){
-                evaluation.setAudit5(1);
-            }else{
-                evaluation.setAudit5(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_every_day))){
-                evaluation.setAudit5(1);
-            }else{
-                evaluation.setAudit5(0);
-            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_once)))
+                evaluation.setAudit5(2);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_monthly)))
+                evaluation.setAudit5(3);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_weekly)))
+                evaluation.setAudit5(4);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_every_day)))
+                evaluation.setAudit5(5);
+            setContentView(R.layout.audit7_6);
         }
     }
 
@@ -343,31 +279,17 @@ public class MainActivity extends AppCompatActivity {
 
         RadioButton radioButton = (RadioButton) findViewById(selectedId);
         if(radioButton != null){
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_never))){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_never)))
                 evaluation.setAudit6(1);
-            }else{
-                evaluation.setAudit6(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_once))){
-                evaluation.setAudit6(1);
-            }else{
-                evaluation.setAudit6(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_monthly))){
-                evaluation.setAudit6(1);
-            }else{
-                evaluation.setAudit6(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_weekly))){
-                evaluation.setAudit6(1);
-            }else{
-                evaluation.setAudit6(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_every_day))){
-                evaluation.setAudit6(1);
-            }else{
-                evaluation.setAudit6(0);
-            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_once)))
+                evaluation.setAudit6(2);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_monthly)))
+                evaluation.setAudit6(3);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_weekly)))
+                evaluation.setAudit6(4);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_every_day)))
+                evaluation.setAudit6(5);
+            setContentView(R.layout.audit7_7);
         }
     }
 
@@ -377,32 +299,18 @@ public class MainActivity extends AppCompatActivity {
 
         RadioButton radioButton = (RadioButton) findViewById(selectedId);
         if(radioButton != null){
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_never))){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_never)))
                 evaluation.setAudit7(1);
-            }else{
-                evaluation.setAudit7(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_once))){
-                evaluation.setAudit7(1);
-            }else{
-                evaluation.setAudit7(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_monthly))){
-                evaluation.setAudit7(1);
-            }else{
-                evaluation.setAudit7(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_weekly))){
-                evaluation.setAudit7(1);
-            }else{
-                evaluation.setAudit7(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_every_day))){
-                evaluation.setAudit7(1);
-            }else{
-                evaluation.setAudit7(0);
-            }
-        };
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_once)))
+                evaluation.setAudit7(2);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_monthly)))
+                evaluation.setAudit7(3);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_weekly)))
+                evaluation.setAudit7(4);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_every_day)))
+                evaluation.setAudit7(5);
+            setContentView(R.layout.audit7_8);
+        }
     }
 
     public void audit8QuestionNext(View view){
@@ -411,31 +319,17 @@ public class MainActivity extends AppCompatActivity {
 
         RadioButton radioButton = (RadioButton) findViewById(selectedId);
         if(radioButton != null){
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_never))){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_never)))
                 evaluation.setAudit8(1);
-            }else{
-                evaluation.setAudit8(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_once))){
-                evaluation.setAudit8(1);
-            }else{
-                evaluation.setAudit8(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_monthly))){
-                evaluation.setAudit8(1);
-            }else{
-                evaluation.setAudit8(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_weekly))){
-                evaluation.setAudit8(1);
-            }else{
-                evaluation.setAudit8(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_every_day))){
-                evaluation.setAudit8(1);
-            }else{
-                evaluation.setAudit8(0);
-            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_once)))
+                evaluation.setAudit8(2);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_monthly)))
+                evaluation.setAudit8(3);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_weekly)))
+                evaluation.setAudit8(4);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_every_day)))
+                evaluation.setAudit8(5);
+            setContentView(R.layout.audit7_9);
         }
     }
 
@@ -445,21 +339,13 @@ public class MainActivity extends AppCompatActivity {
 
         RadioButton radioButton = (RadioButton) findViewById(selectedId);
         if(radioButton != null){
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.no))){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.no)))
                 evaluation.setAudit9(1);
-            }else{
-                evaluation.setAudit9(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_yes_yearNo))){
-                evaluation.setAudit9(1);
-            }else{
-                evaluation.setAudit9(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_yes_yearYes))){
-                evaluation.setAudit9(1);
-            }else{
-                evaluation.setAudit9(0);
-            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_yes_yearNo)))
+                evaluation.setAudit9(3);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_yes_yearYes)))
+                evaluation.setAudit9(5);
+            setContentView(R.layout.audit7_10);
         }
     }
 
@@ -469,22 +355,72 @@ public class MainActivity extends AppCompatActivity {
 
         RadioButton radioButton = (RadioButton) findViewById(selectedId);
         if(radioButton != null){
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.no))){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.no)))
                 evaluation.setAudit10(1);
-            }else{
-                evaluation.setAudit10(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_yes_yearNo))){
-                evaluation.setAudit10(1);
-            }else{
-                evaluation.setAudit10(0);
-            }
-            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_yes_yearYes))){
-                evaluation.setAudit10(1);
-            }else{
-                evaluation.setAudit10(0);
-            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_yes_yearNo)))
+                evaluation.setAudit10(3);
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_yes_yearYes)))
+                evaluation.setAudit10(5);
         }
+        this.audit7();
+    }
+
+    public void audit7(){
+        if(evaluation.getAuditFullSum() <= 17){
+            if(evaluation.dayLimitExceeded() || evaluation.weekLimitExceeded()){
+                setContentView(R.layout.sintomas_alcool_baixorisco_sim_uso);
+            }else if(evaluation.isMale() && evaluation.getAge() <= 65){
+                setContentView(R.layout.feedback_recomendar_limites_homens_65anos);
+            }else if(evaluation.isMale() && evaluation.getAge() > 65 || evaluation.isFemale()){
+                setContentView(R.layout.feedback_recomendar_limites_homens_mulheres_mais65anos);
+            }
+        }else if(evaluation.getAuditFullSum() >= 17 && evaluation.getAuditFullSum() <=25){
+            setContentView(R.layout.sintomas_alcool_risco_uso_risco);
+        }else if(evaluation.getAuditFullSum() >= 26 && evaluation.getAuditFullSum() <=29){
+            setContentView(R.layout.sintomas_alcool_nocivo_sim_uso);
+        }else if(evaluation.getAuditFullSum() >= 30 && evaluation.getAuditFullSum() <=50){
+            setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia);
+        }
+    }
+
+    public void audit1QuestionBack(View view){
+        setContentView(R.layout.activity_main);
+    } ///  VERIFICAR QUEM É A PAGINA ANTERIOR A ESSA
+
+    public void audit2QuestionBack(View view){
+        setContentView(R.layout.audit3_1);
+    }
+
+    public void audit3QuestionBack(View view){
+        setContentView(R.layout.audit3_2);
+    }
+
+    public void audit4QuestionBack(View view){
+        setContentView(R.layout.audit3_3);
+    }
+
+    public void audit5QuestionBack(View view){
+        setContentView(R.layout.audit7_4);
+    }
+
+    public void audit6QuestionBack(View view){
+        setContentView(R.layout.audit7_5);
+    }
+
+    public void audit7QuestionBack(View view){
+        setContentView(R.layout.audit7_6);
+    }
+
+    public void audit8QuestionBack(View view){
+        setContentView(R.layout.audit7_7);
+    }
+
+    public void audit9QuestionBack(View view){
+        setContentView(R.layout.audit7_8);
+    }
+
+    public void audit10QuestionBack(View view){
+        setContentView(R.layout.audit7_9);
     }
 
 }
