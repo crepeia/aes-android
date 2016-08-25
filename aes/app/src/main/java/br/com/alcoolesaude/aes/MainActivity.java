@@ -27,6 +27,8 @@ import org.ksoap2.transport.HttpTransportSE;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import br.com.alcoolesaude.aes.R;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -89,7 +91,6 @@ public class MainActivity extends AppCompatActivity {
                     params.put("sunday", String.valueOf(evaluation.getSunday()));
                     params.put("email", evaluation.getEmail());
                     params.put("key", key);
-
                     return params;
                 }
             };
@@ -121,7 +122,6 @@ public class MainActivity extends AppCompatActivity {
             }
             setContentView(R.layout.question_birth);
         }
-
     }
 
     public void birthQuestionBack(View view){
@@ -156,4 +156,335 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.activity_main);
         }
     }
+
+    public void audit1QuestionNext(View view){
+        RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit1);
+        int selectedId = radiogroup.getCheckedRadioButtonId();
+
+        RadioButton radioButton = (RadioButton) findViewById(selectedId);
+        if(radioButton != null){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_1))){
+                evaluation.setAudit1(1);
+            }else{
+                evaluation.setAudit1(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_2))){
+                evaluation.setAudit1(1);
+            }else{
+                evaluation.setAudit1(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_3))){
+                evaluation.setAudit1(1);
+            }else{
+                evaluation.setAudit1(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_4))){
+                evaluation.setAudit1(1);
+            }else{
+                evaluation.setAudit1(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_3_selectitem_5))){
+                evaluation.setAudit1(1);
+            }else{
+                evaluation.setAudit1(0);
+            }
+
+
+            setContentView(R.layout.activity_main);
+        }
+    }
+
+    public void audit2QuestionNext(View view){
+        RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit2);
+        int selectedId = radiogroup.getCheckedRadioButtonId();
+
+        RadioButton radioButton = (RadioButton) findViewById(selectedId);
+        if(radioButton != null){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_2_1))){
+                evaluation.setAudit2(1);
+            }else{
+                evaluation.setAudit2(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_2_2))){
+                evaluation.setAudit2(1);
+            }else{
+                evaluation.setAudit2(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_2_3))){
+                evaluation.setAudit2(1);
+            }else{
+                evaluation.setAudit2(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_2_4))){
+                evaluation.setAudit2(1);
+            }else{
+                evaluation.setAudit2(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_2_5))){
+                evaluation.setAudit2(1);
+            }else{
+                evaluation.setAudit2(0);
+            }
+
+
+            setContentView(R.layout.activity_main);
+        }
+    }
+
+    public void audit3QuestionNext(View view){
+        RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit3);
+        int selectedId = radiogroup.getCheckedRadioButtonId();
+
+        RadioButton radioButton = (RadioButton) findViewById(selectedId);
+        if(radioButton != null){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_3_1))){
+                evaluation.setAudit3(1);
+            }else{
+                evaluation.setAudit3(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_3_2))){
+                evaluation.setAudit3(1);
+            }else{
+                evaluation.setAudit3(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_3_3))){
+                evaluation.setAudit3(1);
+            }else{
+                evaluation.setAudit3(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_3_4))){
+                evaluation.setAudit3(1);
+            }else{
+                evaluation.setAudit3(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit3_3_5))){
+                evaluation.setAudit3(1);
+            }else{
+                evaluation.setAudit3(0);
+            }
+
+
+            setContentView(R.layout.activity_main);
+        }
+    }
+
+
+    public void audit4QuestionNext(View view){
+        RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit4);
+        int selectedId = radiogroup.getCheckedRadioButtonId();
+
+        RadioButton radioButton = (RadioButton) findViewById(selectedId);
+        if(radioButton != null){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_never))){
+                evaluation.setAudit4(1);
+            }else{
+                evaluation.setAudit4(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_once))){
+                evaluation.setAudit4(1);
+            }else{
+                evaluation.setAudit4(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_monthly))){
+                evaluation.setAudit4(1);
+            }else{
+                evaluation.setAudit4(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_weekly))){
+                evaluation.setAudit4(1);
+            }else{
+                evaluation.setAudit4(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_every_day))){
+                evaluation.setAudit4(1);
+            }else{
+                evaluation.setAudit4(0);
+            }
+        }
+    }
+
+    public void audit5QuestionNext(View view){
+        RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit5);
+        int selectedId = radiogroup.getCheckedRadioButtonId();
+
+        RadioButton radioButton = (RadioButton) findViewById(selectedId);
+        if(radioButton != null){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_never))){
+                evaluation.setAudit5(1);
+            }else{
+                evaluation.setAudit5(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_once))){
+                evaluation.setAudit5(1);
+            }else{
+                evaluation.setAudit5(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_monthly))){
+                evaluation.setAudit5(1);
+            }else{
+                evaluation.setAudit5(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_weekly))){
+                evaluation.setAudit5(1);
+            }else{
+                evaluation.setAudit5(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_every_day))){
+                evaluation.setAudit5(1);
+            }else{
+                evaluation.setAudit5(0);
+            }
+        }
+    }
+
+    public void audit6QuestionNext(View view){
+        RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit6);
+        int selectedId = radiogroup.getCheckedRadioButtonId();
+
+        RadioButton radioButton = (RadioButton) findViewById(selectedId);
+        if(radioButton != null){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_never))){
+                evaluation.setAudit6(1);
+            }else{
+                evaluation.setAudit6(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_once))){
+                evaluation.setAudit6(1);
+            }else{
+                evaluation.setAudit6(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_monthly))){
+                evaluation.setAudit6(1);
+            }else{
+                evaluation.setAudit6(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_weekly))){
+                evaluation.setAudit6(1);
+            }else{
+                evaluation.setAudit6(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_every_day))){
+                evaluation.setAudit6(1);
+            }else{
+                evaluation.setAudit6(0);
+            }
+        }
+    }
+
+    public void audit7QuestionNext(View view){
+        RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit7);
+        int selectedId = radiogroup.getCheckedRadioButtonId();
+
+        RadioButton radioButton = (RadioButton) findViewById(selectedId);
+        if(radioButton != null){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_never))){
+                evaluation.setAudit7(1);
+            }else{
+                evaluation.setAudit7(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_once))){
+                evaluation.setAudit7(1);
+            }else{
+                evaluation.setAudit7(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_monthly))){
+                evaluation.setAudit7(1);
+            }else{
+                evaluation.setAudit7(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_weekly))){
+                evaluation.setAudit7(1);
+            }else{
+                evaluation.setAudit7(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_every_day))){
+                evaluation.setAudit7(1);
+            }else{
+                evaluation.setAudit7(0);
+            }
+        };
+    }
+
+    public void audit8QuestionNext(View view){
+        RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit8);
+        int selectedId = radiogroup.getCheckedRadioButtonId();
+
+        RadioButton radioButton = (RadioButton) findViewById(selectedId);
+        if(radioButton != null){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_never))){
+                evaluation.setAudit8(1);
+            }else{
+                evaluation.setAudit8(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_once))){
+                evaluation.setAudit8(1);
+            }else{
+                evaluation.setAudit8(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_monthly))){
+                evaluation.setAudit8(1);
+            }else{
+                evaluation.setAudit8(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_weekly))){
+                evaluation.setAudit8(1);
+            }else{
+                evaluation.setAudit8(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_every_day))){
+                evaluation.setAudit8(1);
+            }else{
+                evaluation.setAudit8(0);
+            }
+        }
+    }
+
+    public void audit9QuestionNext(View view){
+        RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit9);
+        int selectedId = radiogroup.getCheckedRadioButtonId();
+
+        RadioButton radioButton = (RadioButton) findViewById(selectedId);
+        if(radioButton != null){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.no))){
+                evaluation.setAudit9(1);
+            }else{
+                evaluation.setAudit9(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_yes_yearNo))){
+                evaluation.setAudit9(1);
+            }else{
+                evaluation.setAudit9(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_yes_yearYes))){
+                evaluation.setAudit9(1);
+            }else{
+                evaluation.setAudit9(0);
+            }
+        }
+    }
+
+    public void audit10QuestionNext(View view){
+        RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit10);
+        int selectedId = radiogroup.getCheckedRadioButtonId();
+
+        RadioButton radioButton = (RadioButton) findViewById(selectedId);
+        if(radioButton != null){
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.no))){
+                evaluation.setAudit10(1);
+            }else{
+                evaluation.setAudit10(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_yes_yearNo))){
+                evaluation.setAudit10(1);
+            }else{
+                evaluation.setAudit10(0);
+            }
+            if(String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.audit_yes_yearYes))){
+                evaluation.setAudit10(1);
+            }else{
+                evaluation.setAudit10(0);
+            }
+        }
+    }
+
 }

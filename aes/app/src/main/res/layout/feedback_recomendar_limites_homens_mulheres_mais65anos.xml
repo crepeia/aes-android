@@ -19,7 +19,7 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/limites.mais65.1"/>
+            android:text="@string/limites_mais65_1"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,7 +27,7 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/limites.mais65.2"
+            android:text="@string/limites_mais65_2"
             android:id="@+id/textView8"
             android:layout_gravity="center_horizontal" />
 
@@ -41,19 +41,19 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/baixo.risco3"
+            android:text="@string/baixo_risco3"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/baixo.risco4"
+            android:text="@string/baixo_risco4"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/more.info"
+            android:text="@string/more_info"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
 

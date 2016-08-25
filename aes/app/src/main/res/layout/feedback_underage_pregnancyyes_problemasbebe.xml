@@ -19,7 +19,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.pregnancyyes.pergunta4"/>
+            android:text="@string/feedback_pregnancyyes_pergunta4"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,7 +27,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyyes.pergunta4.1"/>
+            android:text="@string/feedback_pregnancyyes_pergunta4_1"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -35,7 +35,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyyes.pergunta4.2"/>
+            android:text="@string/feedback_pregnancyyes_pergunta4_2"/>
 
     </LinearLayout>
     <LinearLayout
@@ -61,7 +61,7 @@
             android:gravity="center">
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"g
+                android:layout_height="wrap_content"
                 android:text="@string/back"
                 android:onClick="drinkQuestionBack"
                 android:padding="20dp"

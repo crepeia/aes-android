@@ -29,7 +29,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/dependency.question"
+            android:text="@string/dependency_question"
             android:layout_weight="1" />
 
 

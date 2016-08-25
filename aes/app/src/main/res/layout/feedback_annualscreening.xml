@@ -21,7 +21,7 @@
             android:layout_marginBottom="40dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/annual.screening.title"/>
+            android:text="@string/annual_screening_title"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp"
-            android:text="@string/annual.screening.button"
+            android:text="@string/annual_screening_button"
             android:textColor="#FFFFFF"/>
 
 

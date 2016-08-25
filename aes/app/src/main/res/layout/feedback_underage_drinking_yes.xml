@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,7 +20,7 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.underagedrinkingyes"/>
+            android:text="@string/feedback_underagedrinkingyes"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -29,7 +28,7 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.underagedrinkingyes.1"
+            android:text="@string/feedback_underagedrinkingyes_1"
             android:id="@+id/textView2"
             android:layout_weight="1.05" />
     </LinearLayout>
@@ -42,19 +41,19 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/feedback.pregnancyyes.button.1"
+            android:text="@string/feedback_pregnancyyes_button_1"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/feedback.pregnancyyes.button.2"
+            android:text="@string/feedback_pregnancyyes_button_2"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/feedback.pregnancyyes.button.3"
+            android:text="@string/feedback_pregnancyyes_button_3"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
 

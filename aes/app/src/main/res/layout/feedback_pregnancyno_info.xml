@@ -21,13 +21,13 @@
             android:layout_marginBottom="40dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyno.info"/>
+            android:text="@string/feedback_pregnancyno_info"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp"
-            android:text="@string/feedback.pregnancyno.info.button"
+            android:text="@string/feedback_pregnancyno_info_button"
             android:textColor="#FFFFFF"/>
 
 

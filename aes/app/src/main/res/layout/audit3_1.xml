@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/audit.3.1" />
+            android:text="@string/audit_3_1" />
 
     </LinearLayout>
 
@@ -33,56 +33,56 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:id="@+id/radioGroupGender">
+            android:id="@+id/radioGroupAudit1">
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/audit.3.selectitem.1"
+                android:text="@string/audit_3_selectitem_1"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primaryText"
                 android:layout_marginBottom="20dp"
-                android:id="@+id/radioButton1"
+                android:id="@+id/radioButton1.1"
                 android:checked="false" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/audit.3.selectitem.2"
+                android:text="@string/audit_3_selectitem_2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primaryText"
                 android:layout_marginBottom="20dp"
-                android:id="@+id/radioButton2"
+                android:id="@+id/radioButton1.2"
                 android:checked="false" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/audit.3.selectitem.3"
+                android:text="@string/audit_3_selectitem_3"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primaryText"
                 android:layout_marginBottom="20dp"
-                android:id="@+id/radioButton3"
+                android:id="@+id/radioButton1.3"
                 android:checked="false" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/audit.3.selectitem.4"
+                android:text="@string/audit_3_selectitem_4"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primaryText"
                 android:layout_marginBottom="20dp"
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton1.4"
                 android:checked="false" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/audit.3.selectitem.5"
+                android:text="@string/audit_3_selectitem_5"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/primaryText"
                 android:layout_marginBottom="10dp"
-                android:id="@+id/radioButton5"
+                android:id="@+id/radioButton1.5"
                 android:checked="false" />
 
 
@@ -119,7 +119,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/next"
-                android:onClick="genderQuestionNext"
+                android:onClick="audit1QuestionNext"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
                 />

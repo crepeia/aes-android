@@ -20,7 +20,7 @@
             android:layout_marginBottom="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.uso.nocivo"/>
+            android:text="@string/feedback_uso_nocivo"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
             android:layout_marginBottom="0dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.uso.nocivo4"
+            android:text="@string/feedback_uso_nocivo4"
             android:layout_weight="0.13" />
 
         <TextView
@@ -37,7 +37,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.uso.nocivo5"
+            android:text="@string/feedback_uso_nocivo5"
             android:layout_weight="0.23" />
 
 

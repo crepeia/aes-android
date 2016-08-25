@@ -27,7 +27,7 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.abstainers"
+            android:text="@string/feedback_abstainers"
             android:id="@+id/textView8"
             android:layout_gravity="center_horizontal" />
 
@@ -41,19 +41,19 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/feedback.abstainers.button.1"
+            android:text="@string/feedback_abstainers_button_1"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/feedback.abstainers.button.2"
+            android:text="@string/feedback_abstainers_button_2"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/more.info"
+            android:text="@string/more_info"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
 

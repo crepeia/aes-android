@@ -20,7 +20,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.underage.pregnancyyes.recomendacoes"/>
+            android:text="@string/feedback_underage_pregnancyyes_recomendacoes"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.underage.pregnancyyes.recomendacoes1"
+            android:text="@string/feedback_underage_pregnancyyes_recomendacoes1"
             android:layout_weight="0.44" />
 
     </LinearLayout>
@@ -55,7 +55,7 @@
             android:gravity="center">
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"g
+                android:layout_height="wrap_content"
                 android:text="@string/back"
                 android:onClick="drinkQuestionBack"
                 android:padding="20dp"

@@ -29,7 +29,7 @@
             android:layout_marginBottom="80dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/dependency.4"
+            android:text="@string/dependency_4"
             android:layout_weight="1" />
 
         <TextView
@@ -38,7 +38,7 @@
             android:layout_marginBottom="60dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/dependency.5"
+            android:text="@string/dependency_5"
             android:layout_weight="1" />
 
 

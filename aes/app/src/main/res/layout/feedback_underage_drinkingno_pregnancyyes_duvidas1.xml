@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -20,7 +19,7 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.pregnancyno.duvidas.titulo"/>
+            android:text="@string/feedback_pregnancyno_duvidas_titulo"/>
 
     </LinearLayout>
     <LinearLayout
@@ -32,13 +31,13 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/feedback.pregnancyno.duvidas.1"
+            android:text="@string/feedback_pregnancyno_duvidas_1"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/feedback.pregnancyno.duvidas.2"
+            android:text="@string/feedback_pregnancyno_duvidas_2"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
 

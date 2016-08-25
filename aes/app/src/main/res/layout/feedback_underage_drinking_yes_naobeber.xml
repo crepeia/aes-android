@@ -20,7 +20,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.underagedrinkingyes.duvidas1"/>
+            android:text="@string/feedback_underagedrinkingyes_duvidas1"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.underagedrinkingyes.duvidas2"/>
+            android:text="@string/feedback_underagedrinkingyes_duvidas2"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -36,7 +36,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.underagedrinkingyes.duvidas3"/>
+            android:text="@string/feedback_underagedrinkingyes_duvidas3"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -44,7 +44,7 @@
             android:layout_marginBottom="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.underagedrinkingyes.duvidas4"/>
+            android:text="@string/feedback_underagedrinkingyes_duvidas4"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -52,7 +52,7 @@
             android:layout_marginBottom="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.pregnancyyes.pergunta5.3"
+            android:text="@string/feedback_pregnancyyes_pergunta5_3"
             android:id="@+id/textView4" />
 
         <TextView
@@ -61,7 +61,7 @@
             android:layout_marginBottom="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.underagedrinkingyes.duvidas5"
+            android:text="@string/feedback_underagedrinkingyes_duvidas5"
             android:id="@+id/textView3" />
 
     </LinearLayout>
@@ -89,7 +89,7 @@
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"g
+                android:layout_height="wrap_content"
                 android:text="@string/back"
                 android:onClick="drinkQuestionBack"
                 android:padding="20dp"
@@ -104,7 +104,7 @@
             android:gravity="center">
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"g
+                android:layout_height="wrap_content"
                 android:text="@string/next"
                 android:onClick="drinkQuestionBack"
                 android:padding="20dp"

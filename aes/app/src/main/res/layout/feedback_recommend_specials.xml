@@ -19,7 +19,7 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.recommend.specials"/>
+            android:text="@string/feedback_recommend_specials"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,21 +27,21 @@
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.recommend.specials.1"/>
+            android:text="@string/feedback_recommend_specials_1"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.recommend.specials.2"/>
+            android:text="@string/feedback_recommend_specials_2"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.recommend.specials.3"/>
+            android:text="@string/feedback_recommend_specials_3"/>
 
     </LinearLayout>
     <LinearLayout

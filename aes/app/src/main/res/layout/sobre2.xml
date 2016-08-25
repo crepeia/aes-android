@@ -20,7 +20,7 @@
             android:layout_marginBottom="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/sobre.1"
+            android:text="@string/sobre_1"
             android:layout_weight="0.15" />
 
         <TextView
@@ -29,7 +29,7 @@
             android:layout_marginBottom="0dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/sobre.8"
+            android:text="@string/sobre_8"
             android:layout_weight="0.17" />
 
         <TextView
@@ -38,7 +38,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/sobre.9"
+            android:text="@string/sobre_9"
             android:layout_weight="0.15" />
 
         <TextView
@@ -47,7 +47,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/sobre.10"
+            android:text="@string/sobre_10"
             android:layout_weight="0.12"
             android:id="@+id/textView12" />
 
@@ -57,7 +57,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/sobre.11"
+            android:text="@string/sobre_11"
             android:layout_weight="0.10"
             android:id="@+id/textView13" />
 
@@ -67,7 +67,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/sobre.12"
+            android:text="@string/sobre_12"
             android:layout_weight="0.10"
             android:id="@+id/textView14" />
 

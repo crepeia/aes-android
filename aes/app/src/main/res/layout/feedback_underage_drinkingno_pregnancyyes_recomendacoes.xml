@@ -21,7 +21,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/feedback.underage.drinkingno_pregnancyyes.text1.1"/>
+            android:text="@string/feedback_underage_drinkingno_pregnancyyes_text1_1"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -29,7 +29,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.underage.drinkingno_pregnancyyes.text1.2"
+            android:text="@string/feedback_underage_drinkingno_pregnancyyes_text1_2"
             android:layout_weight="0.47" />
 
         <TextView
@@ -38,7 +38,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/feedback.underage.drinkingno_pregnancyyes.text1.3"
+            android:text="@string/feedback_underage_drinkingno_pregnancyyes_text1_3"
             android:layout_weight="0.47" />
 
     </LinearLayout>
@@ -65,7 +65,7 @@
             android:gravity="center">
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"g
+                android:layout_height="wrap_content"
                 android:text="@string/back"
                 android:onClick="drinkQuestionBack"
                 android:padding="20dp"
