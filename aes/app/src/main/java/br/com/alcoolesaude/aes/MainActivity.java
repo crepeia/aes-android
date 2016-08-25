@@ -17,13 +17,13 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
-<<<<<<< HEAD
+
 import com.android.volley.toolbox.Volley;
 */
-=======
-import com.android.volley.toolbox.Volley;*/
 
->>>>>>> 94f5cb97483966d4e468c45126cf917134465743
+
+
+
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.SoapObject;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.feedback_pregnancyyes);
+        setContentView(R.layout.feedback_pregnancyyes_drinkingno_duvidas2);
 
 
     }
@@ -104,13 +104,13 @@ public class MainActivity extends AppCompatActivity {
             };
             queue.add(stringRequest);
         }
-<<<<<<< HEAD
+
     }
 */
-=======
-    }*/
 
->>>>>>> 94f5cb97483966d4e468c45126cf917134465743
+
+
+
     public void startEvaluation(View view){
         evaluation = new Evaluation();
         evaluation.setDateCreated(new Date());
@@ -433,7 +433,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.audit7_9);
     }
 
-<<<<<<< HEAD
     public void abstainerLimits(View view){
         setContentView(R.layout.feedback_abstainers_limits);
     }
@@ -529,7 +528,7 @@ public class MainActivity extends AppCompatActivity {
     public void pregnancyyesStop2(View view){
         setContentView(R.layout.feedback_pregnancyyes_comoparar2);
     }
-=======
+
     public void mainBack(View view){
         setContentView(R.layout.activity_main);
     }
@@ -554,6 +553,51 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.sintomas_alcool_risco_problemas_dependencia_danos_associados);
     }
 
->>>>>>> 94f5cb97483966d4e468c45126cf917134465743
+    public void pregnancyyesdrinkingnodoubt (View view){
+        setContentView(R.layout.feedback_pregnancyyes_drinkingno_duvidas1);
+    }
+
+    public void pregnancyyesdrinkingnoConsumo (View view){
+        setContentView(R.layout.feedback_pregnancyyes_drinkingno_consumo);
+    }
+
+    public void pregnancyyesdrinkingnoBebida (View view){
+        setContentView(R.layout.feedback_pregnancyyes_drinkingno_tipobebida);
+    }
+
+    public void pregnancyyesdrinkingnoSegunda (View view){
+        setContentView(R.layout.feedback_pregnancyyes_drinkingno_segundagestacao);
+    }
+    public void pregnancyyesdrinkingnoBack (View view){
+        setContentView(R.layout.feedback_pregnancyyes_drinkingno);
+    }
+
+    public void pregnancyyesdrinkingnodoubt2 (View view){
+        setContentView(R.layout.feedback_pregnancyyes_drinkingno_duvidas2);
+    }
+
+    public void pregnancyyesdrinkingnoWhat2 (View view){
+        setContentView(R.layout.feedback_pregnancyyes_drinkingno_oquefazer2);
+    }
+
+    public void pregnancyyesdrinkingnoStop2 (View view){
+        setContentView(R.layout.feedback_pregnancyyes_drinkingno_comoparar2);
+    }
+
+    public void pregnancyyesdrinkingnoProblems (View view){
+        setContentView(R.layout.feedback_pregnancyyes_drinkingno_problemasbebe);
+    }
+
+    public void pregnancyyesdrinkingnoWhat (View view){
+        setContentView(R.layout.feedback_pregnancyyes_drinkingno_oquefazer1);
+    }
+
+    public void pregnancyyesdrinkingnoStop (View view){
+        setContentView(R.layout.feedback_pregnancyyes_drinkingno_comoparar1);
+    }
+
+
+
 }
+
 
