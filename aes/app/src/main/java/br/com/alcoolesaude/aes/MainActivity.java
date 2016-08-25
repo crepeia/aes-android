@@ -12,12 +12,12 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.volley.Request;
+/*import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
+import com.android.volley.toolbox.Volley;*/
 
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.SoapObject;
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void syncData(){
+    /*public void syncData(){
         if(evaluation != null && evaluation.getSyncDate() == null) {
 
             RequestQueue queue = Volley.newRequestQueue(this);
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
             };
             queue.add(stringRequest);
         }
-    }
+    }*/
 
     public void startEvaluation(View view){
         evaluation = new Evaluation();
@@ -485,6 +485,30 @@ public class MainActivity extends AppCompatActivity {
                 evaluation.setAudit10(0);
             }
         }
+    }
+
+    public void mainBack(View view){
+        setContentView(R.layout.activity_main);
+    }
+
+    public void riscoProblemasBack(View view){
+        setContentView(R.layout.sintomas_alcool_risco_problemas);
+    }
+
+    public void riscoProblemasAcidentes(View view){
+        setContentView(R.layout.sintomas_alcool_risco_problemas_acidente);
+    }
+
+    public void riscoProblemasSaude(View view){
+        setContentView(R.layout.sintomas_alcool_risco_problemas_saude);
+    }
+
+    public void riscoProblemasFeto(View view){
+        setContentView(R.layout.sintomas_alcool_risco_problemas_feto);
+    }
+
+    public void riscoProblemasDependencia(View view){
+        setContentView(R.layout.sintomas_alcool_risco_problemas_dependencia_danos_associados);
     }
 
 }
