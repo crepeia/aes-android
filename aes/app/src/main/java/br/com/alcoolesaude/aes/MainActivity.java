@@ -861,6 +861,35 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia_questao);
     }
 
+    public void nocivoproblemas (View view){
+        setContentView(R.layout.sintomas_alcool_nocivo_problemas);
+    }
+
+    public void nocivoproblemasacidente (View view){
+        setContentView(R.layout.sintomas_alcool_nocivo_problemas_acidente);
+    }
+
+    public void nocivoproblemassaude (View view){
+        setContentView(R.layout.sintomas_alcool_nocivo_problemas_saude);
+    }
+
+    public void nocivoproblemasfeto (View view){
+        setContentView(R.layout.sintomas_alcool_nocivo_problemas_feto);
+    }
+
+    public void nocivoproblemasdependencia (View view){
+        setContentView(R.layout.sintomas_alcool_nocivo_problemas_dependencia_danos_associados);
+    }
+
+    public void nocivosimuso2 (View view){
+        setContentView(R.layout.sintomas_alcool_nocivo_sim_uso_2);
+    }
+
+    public void nocivosimuso (View view){
+        setContentView(R.layout.sintomas_alcool_nocivo_sim_uso);
+    }
+
+
 
 
 
