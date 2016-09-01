@@ -596,6 +596,66 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.feedback_pregnancyyes_drinkingno_comoparar1);
     }
 
+    public void SimUsoQuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_sim_uso2);
+    }
+
+    public void SimUso2QuestioNext(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_sim_uso3);
+    }
+
+    public void SimUso3QuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas);
+    }
+
+    public void AcidenteQuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas_acidente);
+    }
+
+    public void ProblemsQuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas_saude);
+    }
+
+    public void fetusQuestionNext(){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas_feto);
+    }
+
+    public void DependencyQuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas_dependencia_danos_associados);
+    }
+
+    public void DependencyQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas);
+    }
+
+    public void fetusQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas);
+    }
+
+    public void ProblemsQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas);
+    }
+
+    public void AcidenteQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas);
+    }
+
+    public void ProblemsAlcoolQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_sim_uso3);
+    }
+
+    public void SimUso3QuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_sim_uso2);
+    }
+
+    public void SimUso2QuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_sim_uso);
+    }
+
+
+
+
+
 
 
 }
