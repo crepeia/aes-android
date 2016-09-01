@@ -596,6 +596,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.feedback_pregnancyyes_drinkingno_comoparar1);
     }
 
+
     public void homens65recomendacoes (View view){
         setContentView(R.layout.feedback_recomendar_limites_homens_65anos_recomandacoes);
     }
@@ -660,97 +661,222 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void underagedrinkingnoduvidas (View view){
-        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_duvidas1;
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_duvidas1);
     }
 
     public void underagedrinkingnoinfo (View view){
-        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_info;
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_info);
     }
 
     public void underagedrinkingno (View view){
-        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes;
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes);
     }
 
     public void underagedrinkingnorecomendacoes2 (View view){
-        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_recomendacoes2;
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_recomendacoes2);
     }
 
     public void underagedrinkingnorecomendacoes3 (View view){
-        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_recomendacoes3;
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_recomendacoes3);
     }
 
     public void underagedrinkingnocontinuar (View view){
-        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_continuarsembeber;
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_continuarsembeber);
     }
 
     public void underagedrinkingnoexperimentar (View view){
-        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_experimentar;
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_experimentar);
     }
 
     public void underagedrinkingnoexperimentar2 (View view){
-        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_experimentar2;
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_experimentar2);
     }
 
     public void underagedrinkingnoexperimentar3 (View view){
-        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_experimentar3;
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_experimentar3);
     }
 
     public void underagepregnancyyes (View view){
-        setContentView(R.layout.feedback_underage_pregnancyyes;
+        setContentView(R.layout.feedback_underage_pregnancyyes);
     }
 
     public void underagepregnancyyesrecomendacoes (View view){
-        setContentView(R.layout.feedback_underage_pregnancyyes_recomendacoes;
+        setContentView(R.layout.feedback_underage_pregnancyyes_recomendacoes);
     }
 
     public void underagepregnancyyesrecomendacoes2 (View view){
-        setContentView(R.layout.feedback_underage_pregnancyyes_recomendacoes2;
+        setContentView(R.layout.feedback_underage_pregnancyyes_recomendacoes2);
     }
 
 
     public void underagepregnancyyesduvidas (View view){
-        setContentView(R.layout.feedback_underage_pregnancyyes_duvidas1;
+        setContentView(R.layout.feedback_underage_pregnancyyes_duvidas1);
     }
 
     public void underagepregnancyyesduvidas2 (View view){
-        setContentView(R.layout.feedback_underage_pregnancyyes_duvidas2;
+        setContentView(R.layout.feedback_underage_pregnancyyes_duvidas2);
     }
 
     public void underagepregnancyyesinfo (View view){
-        setContentView(R.layout.feedback_underage_pregnantyyes_info;
+        setContentView(R.layout.feedback_underage_pregnantyyes_info);
     }
 
     public void underagepregnancyyesconsumo (View view){
-        setContentView(R.layout.feedback_underage_pregnancyyes_consumo;
+        setContentView(R.layout.feedback_underage_pregnancyyes_consumo);
     }
 
     public void underagepregnancyyestipo (View view){
-        setContentView(R.layout.feedback_underage_pregnancyyes_tipobebida;
+        setContentView(R.layout.feedback_underage_pregnancyyes_tipobebida);
     }
 
     public void underagepregnancyyessegunda (View view){
-        setContentView(R.layout.feedback_underage_pregnancyyes_segundagestacao;
+        setContentView(R.layout.feedback_underage_pregnancyyes_segundagestacao);
     }
 
     public void underagepregnancyyesproblemas (View view){
-        setContentView(R.layout.feedback_underage_pregnancyyes_problemasbebe;
+        setContentView(R.layout.feedback_underage_pregnancyyes_problemasbebe);
     }
 
     public void underagepregnancyyesoque (View view){
-        setContentView(R.layout.feedback_underage_pregnancyyes_oquefazer1;
+        setContentView(R.layout.feedback_underage_pregnancyyes_oquefazer1);
     }
 
     public void underagepregnancyyesoque2 (View view){
-        setContentView(R.layout.feedback_underage_pregnancyyes_oquefazer2;
+        setContentView(R.layout.feedback_underage_pregnancyyes_oquefazer2);
     }
 
     public void underagepregnancyyescomo (View view){
-        setContentView(R.layout.feedback_underage_pregnancyyes_comoparar1;
+        setContentView(R.layout.feedback_underage_pregnancyyes_comoparar1);
     }
 
     public void underagepregnancyyescomo2 (View view){
-        setContentView(R.layout.feedback_underage_pregnancyyes_comoparar2;
+        setContentView(R.layout.feedback_underage_pregnancyyes_comoparar2);
     }
+
+    public void SimUsoQuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_sim_uso2);
+    }
+
+    public void SimUso2QuestioNext(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_sim_uso3);
+    }
+
+    public void SimUso3QuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas);
+    }
+
+    public void AcidenteQuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas_acidente);
+    }
+
+    public void ProblemsQuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas_saude);
+    }
+
+    public void fetusQuestionNext(){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas_feto);
+    }
+
+    public void DependencyQuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas_dependencia_danos_associados);
+    }
+
+    public void DependencyQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas);
+    }
+
+    public void fetusQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas);
+    }
+
+    public void ProblemsQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas);
+    }
+
+    public void AcidenteQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_problemas);
+    }
+
+    public void ProblemsAlcoolQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_sim_uso3);
+    }
+
+    public void SimUso3QuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_sim_uso2);
+    }
+
+    public void SimUso2QuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_baixorisco_sim_uso);
+    }
+
+    public void dependencyQuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia_continuacao);
+    }
+
+    public void dependencyContQuestionNext(View view) {
+        setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia_questao);
+    }
+
+    public void QuestionDependencyQuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas);
+    }
+
+    public void QuestionDependencyQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia_continuacao);
+    }
+
+    public void dependencyContQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia_continuacao);
+    }
+
+    public void dependencyProblemsQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia_continuacao);
+    }
+
+    public void dependencyAcidenteQuestion(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas_acidente);
+    }
+
+    public void dependencyProblemsQuestion(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas_saude);
+    }
+
+    public void dependencyFetusQuestion(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas_feto);
+    }
+
+    public void dependencyQuestion(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas_dependencia_danos_associados);
+    }
+
+    public void dependencyAcidenteQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas);
+    }
+
+    public void dependencyHealthQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas);
+    }
+
+    public void dependencyFetusQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas);
+    }
+
+    public void dependencyDanosQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas);
+    }
+
+    public void dependencyDanosQuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia_questao);
+    }
+
+
+
+
+
+
+
+
+
 
 
 }
