@@ -52,6 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/feedback_pregnancyyes_button_1"
+            android:onClick="underagepregnancyyesrecomendacoes"
             android:padding="20dp"
             android:textColor="#FFFFFF"
             android:layout_weight="0.13" />
@@ -59,12 +60,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/feedback_pregnancyyes_button_2"
+            android:onClick="underagepregnancyyesduvidas"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/feedback_pregnancyyes_button_3"
+            android:onClick="underagepregnancyyesinfo"
             android:padding="20dp"
             android:textColor="#FFFFFF" />
 
@@ -87,7 +90,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/back"
-                android:onClick="drinkQuestionBack"
+                android:onClick="audit1QuestionBack"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
                 />

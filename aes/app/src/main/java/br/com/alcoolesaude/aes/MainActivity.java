@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.feedback_pregnancyyes_drinkingno_duvidas2);
+        setContentView(R.layout.feedback_pregnancyyes_drinkingno_duvidas1);
 
 
     }
@@ -596,6 +596,161 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.feedback_pregnancyyes_drinkingno_comoparar1);
     }
 
+    public void homens65recomendacoes (View view){
+        setContentView(R.layout.feedback_recomendar_limites_homens_65anos_recomandacoes);
+    }
+
+    public void homens65recomendacoesespeciais (View view){
+        setContentView(R.layout.feedback_recomendar_limites_homens_65anos_recomandacoes_especiais);
+    }
+
+    public void homens65maisinfo (View view){
+        setContentView(R.layout.feedback_recomendar_limites_homens_65anos_maisinfo);
+    }
+
+    public void homens65 (View view){
+        setContentView(R.layout.feedback_recomendar_limites_homens_65anos);
+    }
+
+    public void homensmulheres65recomendacoes (View view){
+        setContentView(R.layout.feedback_recomendar_limites_homens_mulheres_mais65anos_recomandacoes);
+    }
+
+    public void homensmulheres65recomendacoesespeciais (View view){
+        setContentView(R.layout.feedback_recomendar_limites_homens_mulheres_mais65anos_recomandacoes_especiais);
+    }
+    public void homensmulheres65maisinfo (View view){
+        setContentView(R.layout.feedback_recomendar_limites_homens_mulheres_mais65anos_maisinfo);
+    }
+    public void homensmulheres65 (View view){
+        setContentView(R.layout.feedback_recomendar_limites_homens_mulheres_mais65anos);
+    }
+
+    public void uderagedrinkingyes (View view){
+        setContentView(R.layout.feedback_underage_drinking_yes);
+    }
+
+    public void underagedrinkingyesduvidas (View view){
+        setContentView(R.layout.feedback_underage_drinking_yes_duvidas1);
+    }
+
+    public void underagedrinkingyesinfo (View view){
+        setContentView(R.layout.feedback_underage_drinking_yes_info);
+    }
+
+    public void underagedrinkingyesnaobeber (View view){
+        setContentView(R.layout.feedback_underage_drinking_yes_naobeber);
+    }
+
+    public void underagedrinkingyeswhat (View view){
+        setContentView(R.layout.feedback_underage_drinking_yes_oquefazer);
+    }
+
+    public void underagedrinkingyeswhat2 (View view){
+        setContentView(R.layout.feedback_underage_drinking_yes_oquefazer2);
+    }
+
+    public void underagedrinkingyesrecomendacoes (View view){
+        setContentView(R.layout.feedback_underage_drinking_yes_recomendacoes);
+    }
+
+    public void underagedrinkingnorecomendacoes (View view){
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_recomendacoes);
+    }
+
+
+    public void underagedrinkingnoduvidas (View view){
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_duvidas1;
+    }
+
+    public void underagedrinkingnoinfo (View view){
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_info;
+    }
+
+    public void underagedrinkingno (View view){
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes;
+    }
+
+    public void underagedrinkingnorecomendacoes2 (View view){
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_recomendacoes2;
+    }
+
+    public void underagedrinkingnorecomendacoes3 (View view){
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_recomendacoes3;
+    }
+
+    public void underagedrinkingnocontinuar (View view){
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_continuarsembeber;
+    }
+
+    public void underagedrinkingnoexperimentar (View view){
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_experimentar;
+    }
+
+    public void underagedrinkingnoexperimentar2 (View view){
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_experimentar2;
+    }
+
+    public void underagedrinkingnoexperimentar3 (View view){
+        setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes_experimentar3;
+    }
+
+    public void underagepregnancyyes (View view){
+        setContentView(R.layout.feedback_underage_pregnancyyes;
+    }
+
+    public void underagepregnancyyesrecomendacoes (View view){
+        setContentView(R.layout.feedback_underage_pregnancyyes_recomendacoes;
+    }
+
+    public void underagepregnancyyesrecomendacoes2 (View view){
+        setContentView(R.layout.feedback_underage_pregnancyyes_recomendacoes2;
+    }
+
+
+    public void underagepregnancyyesduvidas (View view){
+        setContentView(R.layout.feedback_underage_pregnancyyes_duvidas1;
+    }
+
+    public void underagepregnancyyesduvidas2 (View view){
+        setContentView(R.layout.feedback_underage_pregnancyyes_duvidas2;
+    }
+
+    public void underagepregnancyyesinfo (View view){
+        setContentView(R.layout.feedback_underage_pregnantyyes_info;
+    }
+
+    public void underagepregnancyyesconsumo (View view){
+        setContentView(R.layout.feedback_underage_pregnancyyes_consumo;
+    }
+
+    public void underagepregnancyyestipo (View view){
+        setContentView(R.layout.feedback_underage_pregnancyyes_tipobebida;
+    }
+
+    public void underagepregnancyyessegunda (View view){
+        setContentView(R.layout.feedback_underage_pregnancyyes_segundagestacao;
+    }
+
+    public void underagepregnancyyesproblemas (View view){
+        setContentView(R.layout.feedback_underage_pregnancyyes_problemasbebe;
+    }
+
+    public void underagepregnancyyesoque (View view){
+        setContentView(R.layout.feedback_underage_pregnancyyes_oquefazer1;
+    }
+
+    public void underagepregnancyyesoque2 (View view){
+        setContentView(R.layout.feedback_underage_pregnancyyes_oquefazer2;
+    }
+
+    public void underagepregnancyyescomo (View view){
+        setContentView(R.layout.feedback_underage_pregnancyyes_comoparar1;
+    }
+
+    public void underagepregnancyyescomo2 (View view){
+        setContentView(R.layout.feedback_underage_pregnancyyes_comoparar2;
+    }
 
 
 }

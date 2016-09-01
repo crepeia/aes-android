@@ -67,7 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/back"
-                android:onClick="drinkQuestionBack"
+                android:onClick="underagedrinkingno"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
                 />
@@ -82,7 +82,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/next"
-                android:onClick="drinkQuestionBack"
+                android:onClick="underagedrinkingnorecomendacoes2"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
                 android:id="@+id/button4" />
