@@ -34,24 +34,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/accident_button1"
+            android:onClick="dependencyAcidenteQuestion"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/health_problem_button1"
+            android:onClick="dependencyProblemsQuestion"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/fetus_problem_button1"
+            android:onClick="dependencyFetusQuestion"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/dependecy_button1"
+            android:onClick="dependencyQuestion"
             android:padding="20dp"
             android:textColor="#FFFFFF"/>
 
@@ -82,7 +86,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/back"
-                android:onClick="drinkQuestionBack"
+                android:onClick="dependencyProblemsQuestionBack"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
                 />

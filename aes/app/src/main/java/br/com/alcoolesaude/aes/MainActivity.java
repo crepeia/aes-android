@@ -652,6 +652,70 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.sintomas_alcool_baixorisco_sim_uso);
     }
 
+    public void dependencyQuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia_continuacao);
+    }
+
+    public void dependencyContQuestionNext(View view) {
+        setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia_questao);
+    }
+
+    public void QuestionDependencyQuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas);
+    }
+
+    public void QuestionDependencyQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia_continuacao);
+    }
+
+    public void dependencyContQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia_continuacao);
+    }
+
+    public void dependencyProblemsQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia_continuacao);
+    }
+
+    public void dependencyAcidenteQuestion(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas_acidente);
+    }
+
+    public void dependencyProblemsQuestion(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas_saude);
+    }
+
+    public void dependencyFetusQuestion(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas_feto);
+    }
+
+    public void dependencyQuestion(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas_dependencia_danos_associados);
+    }
+
+    public void dependencyAcidenteQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas);
+    }
+
+    public void dependencyHealthQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas);
+    }
+
+    public void dependencyFetusQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas);
+    }
+
+    public void dependencyDanosQuestionBack(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_problemas);
+    }
+
+    public void dependencyDanosQuestionNext(View view){
+        setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia_questao);
+    }
+
+
+
+
+
 
 
 
