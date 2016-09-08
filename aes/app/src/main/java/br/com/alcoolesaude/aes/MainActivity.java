@@ -200,11 +200,13 @@ public class MainActivity extends AppCompatActivity {
         } else if ((evaluation.isUnderage() && evaluation.isFemale() && evaluation.getPregnant()) && evaluation.getDrink()) {
             setContentView(R.layout.feedback_underage_pregnancyyes);
         } else if (evaluation.isUnderage() && !evaluation.getDrink()) {
-            //setContentView(R.layout.feedback)
+            setContentView(R.layout.feedback_pregnancyno);
         } else if (evaluation.isUnderage() && evaluation.getDrink()) {
             setContentView(R.layout.feedback_underage_drinking_yes);
         } else if (!evaluation.getDrink()) {
             setContentView(R.layout.feedback_abstainer);
+        }else{
+            setContentView(R.layout.audit3_1);
         }
     }
 
@@ -227,7 +229,6 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.audit3_2);
         }
     }
-
 
     public void audit2QuestionNext(View view){
         RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit2);
@@ -431,9 +432,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void audit1QuestionBack(View view){
-        setContentView(R.layout.activity_main);
-    } ///  VERIFICAR QUEM É A PAGINA ANTERIOR A ESSA
+    public void audit1QuestionBack(View view){ setContentView(R.layout.question_drink);}
 
     public void audit2QuestionBack(View view){
         setContentView(R.layout.audit3_1);
