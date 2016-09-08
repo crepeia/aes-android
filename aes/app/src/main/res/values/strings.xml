@@ -8,6 +8,7 @@
     <string name="hello">Olá!</string>
     <string name="questions_0">Para saber o quanto você bebe e os impactos para a sua saúde, precisamos das seguintes informações:</string>
     <string name="questions_1">01 - Sexo</string>
+    <string name="questions_1_preg">Você está grávida ou tem chance de estar grávida?</string>
     <string name="questions_2">02 - Nascimento</string>
     <string name="questions_3">03 - Às vezes, você bebe, cerveja, cachaça, vinho ou outras bebidas alcoólicas - mesmo em pouca quantidade ?</string>
     <string name="female">Feminino</string>

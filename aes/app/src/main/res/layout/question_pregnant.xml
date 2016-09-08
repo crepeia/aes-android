@@ -2,11 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin">
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,25 +26,40 @@
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/questions_2"/>
+            android:text="@string/questions_1_preg"/>
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="vertical">
 
-       <DatePicker
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:onClick="goToDrinkQuestion"
-           android:datePickerMode="spinner"
-           android:calendarViewShown="false"
-           android:layout_gravity="center"
-           android:id="@+id/datePickerBirth">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:id="@+id/radioGroupPregnancy">
 
-       </DatePicker>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/yes"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/primaryText"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/radioButtonYes"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/no"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/primaryText"
+                android:id="@+id/radioButtonNo"/>
+
+
+        </RadioGroup>
 
     </LinearLayout>
 
@@ -52,6 +67,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:orientation="horizontal"
         android:gravity="center">
         <LinearLayout
             android:layout_width="0dp"
@@ -62,7 +78,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/back"
-                android:onClick="birthQuestionBack"
+                android:onClick="pregnancyQUestionBack"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
                 />
@@ -76,10 +92,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/next"
-                android:onClick="birthQuestionNext"
+                android:onClick="pregnancyQuestionNext"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
-
                 />
         </LinearLayout>
     </LinearLayout>

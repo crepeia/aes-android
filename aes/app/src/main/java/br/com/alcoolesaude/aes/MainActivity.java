@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.feedback_pregnancyyes_drinkingno_duvidas1);
+        setContentView(R.layout.activity_main);
 
 
     }
@@ -100,9 +100,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
-
     public void startEvaluation(View view){
         evaluation = new Evaluation();
         evaluation.setDateCreated(new Date());
@@ -122,23 +119,47 @@ public class MainActivity extends AppCompatActivity {
 
             if (String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.female))) {
                 evaluation.setGender("F");
+                setContentView(R.layout.question_pregnant);
+
             }else {
                 evaluation.setGender("M");
+                setContentView(R.layout.question_birth);
             }
-            setContentView(R.layout.question_birth);
         }
     }
 
+    public void pregnancyQUestionBack(View view){
+        setContentView(R.layout.question_gender);
+    }
+
+    public void pregnancyQuestionNext(View view){
+        RadioGroup radiogroup =  (RadioGroup) findViewById(R.id.radioGroupPregnancy);
+        int selectedId = radiogroup .getCheckedRadioButtonId();
+
+        RadioButton radioButton = (RadioButton) findViewById(selectedId);
+        if (String.valueOf(radioButton.getText()).equals(getResources().getString(R.string.yes))) {
+            evaluation.setPregnant(true);
+        }else {
+            evaluation.setPregnant(false);
+        }
+        setContentView(R.layout.question_birth);
+    }
+
     public void birthQuestionBack(View view){
+        if(evaluation.isFemale()){
+            setContentView(R.layout.question_pregnant);
+        }
+        else{
+            setContentView(R.layout.question_gender);
+        }
+    }
+
+    public void birthQuestionNext(View view){
         DatePicker datePicker = (DatePicker) findViewById(R.id.datePickerBirth);
         int day = datePicker.getDayOfMonth();
         int month = datePicker.getMonth();
         int year = datePicker.getYear();
         evaluation.setBirth(year,month,day);
-        setContentView(R.layout.question_gender);
-    }
-
-    public void birthQuestionNext(View view){
         setContentView(R.layout.question_drink);
     }
 
@@ -158,7 +179,22 @@ public class MainActivity extends AppCompatActivity {
             }else {
                 evaluation.setDrink(false);
             }
-            setContentView(R.layout.activity_main);
+
+        }
+        if ((!evaluation.isUnderage() && evaluation.isFemale() && evaluation.getPregnant()) && !evaluation.getDrink()) {
+            setContentView(R.layout.feedback_pregnancyyes_drinkingno);
+        } else if ((evaluation.isUnderage() && evaluation.isFemale() && evaluation.getPregnant()) && !evaluation.getDrink()) {
+            setContentView(R.layout.feedback_underage_drinkingno_pregnancyyes);
+        } else if ((!evaluation.isUnderage() && evaluation.isFemale() && evaluation.getPregnant()) && evaluation.getDrink()) {
+            setContentView(R.layout.feedback_pregnancyyes);
+        } else if ((evaluation.isUnderage() && evaluation.isFemale() && evaluation.getPregnant()) && evaluation.getDrink()) {
+            setContentView(R.layout.feedback_underage_pregnancyyes);
+        } else if (evaluation.isUnderage() && !evaluation.getDrink()) {
+            //setContentView(R.layout.feedback)
+        } else if (evaluation.isUnderage() && evaluation.getDrink()) {
+            setContentView(R.layout.feedback_underage_drinking_yes);
+        } else if (!evaluation.getDrink()) {
+            setContentView(R.layout.feedback_abstainer);
         }
     }
 

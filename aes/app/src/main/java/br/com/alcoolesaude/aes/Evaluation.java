@@ -12,6 +12,7 @@ public class Evaluation {
     private Date syncDate;
     private Date birth;
     private String gender;
+    private Boolean pregnant;
     private Boolean drink;
     private Integer audit1;
     private Integer audit2;
@@ -229,6 +230,14 @@ public class Evaluation {
         this.email = email;
     }
 
+    public Boolean getPregnant() {
+        return pregnant;
+    }
+
+    public void setPregnant(Boolean pregnant) {
+        this.pregnant = pregnant;
+    }
+
     public boolean isFemale() {
         return this.gender == "F";}
 
@@ -288,6 +297,12 @@ public class Evaluation {
         }
 
     }
+
+    public boolean isUnderage() {
+        return getAge() < 18;
+
+    }
+
 
     public int getAuditFullSum() {
         return audit1 + audit2 + audit3 + audit4 + audit5 + audit6 + audit7 + audit8 + audit9 + audit10;
