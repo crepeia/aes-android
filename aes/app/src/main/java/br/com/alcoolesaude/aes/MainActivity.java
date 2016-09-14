@@ -2,7 +2,10 @@ package br.com.alcoolesaude.aes;
 
 import android.os.Bundle;
 import android.provider.Settings;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.text.Layout;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -34,14 +37,21 @@ public class MainActivity extends AppCompatActivity {
 
     private final String url = "http://alcoolesude.com.br/appRequest.xhtml";
     private final String key = "11VzuKzy5k";
+    ActionBar bar;
     Evaluation evaluation;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
 
-
+    @Override
+    public void setContentView(int layoutId) {
+        super.setContentView(layoutId);
+        bar = getSupportActionBar();
+        bar.setTitle(getResources().getResourceEntryName(layoutId));
     }
 
     public void syncData(){
@@ -128,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void pregnancyQUestionBack(View view){
+    public void pregnancyQuestionBack(View view){
         setContentView(R.layout.question_gender);
     }
 
@@ -195,6 +205,11 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.feedback_underage_drinking_yes);
         } else if (!evaluation.getDrink()) {
             setContentView(R.layout.feedback_abstainer);
+<<<<<<< HEAD
+=======
+        }else{
+            setContentView(R.layout.audit3_1);
+>>>>>>> b5a9b70484258d25a25bba28fe0a495df02a2f30
         }
     }
 
@@ -217,7 +232,6 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.audit3_2);
         }
     }
-
 
     public void audit2QuestionNext(View view){
         RadioGroup radiogroup = (RadioGroup) findViewById(R.id.radioGroupAudit2);
@@ -421,9 +435,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void audit1QuestionBack(View view){
-        setContentView(R.layout.activity_main);
-    } ///  VERIFICAR QUEM É A PAGINA ANTERIOR A ESSA
+    public void audit1QuestionBack(View view){ setContentView(R.layout.question_drink);}
 
     public void audit2QuestionBack(View view){
         setContentView(R.layout.audit3_1);
