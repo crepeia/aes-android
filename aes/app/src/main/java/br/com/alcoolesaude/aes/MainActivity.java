@@ -194,7 +194,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (evaluation.isUnderage() && evaluation.getDrink()) {
             setContentView(R.layout.feedback_underage_drinking_yes);
         } else if (!evaluation.getDrink()) {
-            setContentView(R.layout.feedback_abstainer);    
+            setContentView(R.layout.feedback_abstainer);
         }
     }
 
