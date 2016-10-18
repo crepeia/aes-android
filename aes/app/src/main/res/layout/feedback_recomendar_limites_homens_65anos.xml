@@ -79,7 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/back"
-                android:onClick="audit1QuestionBack"
+                android:onClick="questionBackAudit3"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
                 />

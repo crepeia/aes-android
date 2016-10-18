@@ -1,5 +1,7 @@
 package br.com.alcoolesaude.aes;
 
+import android.os.Bundle;
+
 import java.util.Calendar;
 import java.util.Date;
 
@@ -34,6 +36,7 @@ public class Evaluation {
     private String email;
 
 
+    
 
 
     public Evaluation(){
@@ -277,7 +280,8 @@ public class Evaluation {
     }
 
     public int getWeekTotal() {
-        return sunday + monday + tuesday + wednesday + thursday + friday + saturday;
+        return (sunday != null ? sunday : 0) + (monday != null ? monday : 0) + (tuesday != null ? tuesday : 0) +
+                (wednesday != null ? wednesday : 0) + (thursday != null ? thursday : 0) + (friday != null ? friday : 0) + (saturday != null ? saturday : 0);
     }
 
     public int getAge() {

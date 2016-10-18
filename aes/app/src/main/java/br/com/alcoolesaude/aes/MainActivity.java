@@ -1,5 +1,11 @@
 package br.com.alcoolesaude.aes;
 
+import android.app.Activity;
+import android.view.ViewGroup.LayoutParams;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.widget.LinearLayout;
+
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v7.app.ActionBar;
@@ -116,6 +122,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.question_gender);
     }
 
+
     public void genderQuestionBack(View view){
         setContentView(R.layout.activity_main);
     }
@@ -177,6 +184,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.question_birth);
     }
 
+    public void questionBackAudit10(View view){
+        setContentView(R.layout.audit7_10);
+    }
+
+    public void questionBackAudit3(View view){
+        setContentView(R.layout.audit3_3);
+    }
+
     public void drinkQuestionNext(View view){
         RadioGroup radiogroup =  (RadioGroup) findViewById(R.id.radioGroupGender);
         int selectedId = radiogroup .getCheckedRadioButtonId();
@@ -205,11 +220,11 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.feedback_underage_drinking_yes);
         } else if (!evaluation.getDrink()) {
             setContentView(R.layout.feedback_abstainer);
-<<<<<<< HEAD
-=======
+
+
         }else{
             setContentView(R.layout.audit3_1);
->>>>>>> b5a9b70484258d25a25bba28fe0a495df02a2f30
+
         }
     }
 
@@ -426,7 +441,7 @@ public class MainActivity extends AppCompatActivity {
             }else if(evaluation.isMale() && evaluation.getAge() > 65 || evaluation.isFemale()){
                 setContentView(R.layout.feedback_recomendar_limites_homens_mulheres_mais65anos);
             }
-        }else if(evaluation.getAuditFullSum() >= 17 && evaluation.getAuditFullSum() <=25){
+        }else if(evaluation.getAuditFullSum() >= 18 && evaluation.getAuditFullSum() <=25){
             setContentView(R.layout.sintomas_alcool_risco_uso_risco);
         }else if(evaluation.getAuditFullSum() >= 26 && evaluation.getAuditFullSum() <=29){
             setContentView(R.layout.sintomas_alcool_nocivo_sim_uso);
