@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pagina_final);
+        setContentView(R.layout.activity_main);
     }
 
     @Override
@@ -502,6 +502,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.feedback_abstainers_problems);
     }
 
+    public void abstainerInfo(View view){
+        setContentView(R.layout.feedback_moreinfo);
+    }
+
     public void pregnancynoRecommended(View view){
         setContentView(R.layout.feedback_pregnancyno_recomendacoes);
     }
@@ -536,6 +540,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void pregnancynoExperience3(View view){
         setContentView(R.layout.feedback_pregnancyno_experimentar3);
+    }
+
+    public void pregnancynoInfo(View view){
+        setContentView(R.layout.feedback_pregnancyno_info);
+    }
+
+    public void pregnancyno(View view){
+        setContentView(R.layout.feedback_pregnancyno);
     }
 
     public void pregnancyyesRecommended(View view){
@@ -651,6 +663,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void pregnancyyesdrinkingnoStop (View view){
         setContentView(R.layout.feedback_pregnancyyes_drinkingno_comoparar1);
+    }
+
+    public void pregnancyyesdrinkingnoInfo (View view){
+        setContentView(R.layout.feedback_pregnancyyes_drinkingno_info);
     }
 
 
@@ -953,6 +969,11 @@ public class MainActivity extends AppCompatActivity {
     public void nocivosimuso (View view){
         setContentView(R.layout.sintomas_alcool_nocivo_sim_uso);
     }
+
+    public void paginaFinal (View view){
+        setContentView(R.layout.pagina_final);
+    }
+
 
 
     public void clicar (View view){
