@@ -1,6 +1,8 @@
 package br.com.alcoolesaude.aes;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.view.ViewGroup.LayoutParams;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -50,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.pagina_final);
     }
 
     @Override
@@ -953,7 +955,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
+    public void clicar (View view){
+        String url = "http://www.alcoolesaude.com.br/";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
 
 
 
