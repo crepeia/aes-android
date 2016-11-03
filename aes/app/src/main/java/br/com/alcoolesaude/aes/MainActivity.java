@@ -494,6 +494,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.feedback_abstainers_limits);
     }
 
+    public void abstainerFeedback(View view){
+        setContentView(R.layout.feedback_abstainer);
+    }
+
     public void backBack(View view){
         setContentView(R.layout.activity_main);
     }

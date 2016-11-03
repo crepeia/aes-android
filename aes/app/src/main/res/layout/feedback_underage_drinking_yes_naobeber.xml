@@ -91,7 +91,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/back"
-                android:onClick="drinkQuestionBack"
+                android:onClick="underagedrinkingyesduvidas"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
                 />
@@ -101,16 +101,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center">
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/next"
-                android:onClick="drinkQuestionBack"
-                android:padding="20dp"
-                android:textColor="#FFFFFF"
-                />
-        </LinearLayout>
+            android:gravity="center"></LinearLayout>
 
 
     </LinearLayout>
