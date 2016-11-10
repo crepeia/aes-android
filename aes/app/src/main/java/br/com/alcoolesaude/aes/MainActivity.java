@@ -978,7 +978,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.pagina_final);
     }
 
+    public void paginaSobre (View view){
+        setContentView(R.layout.sobre);
+    }
 
+    public void paginaSobre2 (View view){
+        setContentView(R.layout.sobre2);
+    }
+
+    public void paginaEmail (View view){
+        setContentView(R.layout.feedback_annualscreening);
+    }
 
     public void clicar (View view){
         String url = "http://www.alcoolesaude.com.br/";
