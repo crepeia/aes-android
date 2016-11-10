@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         super.setContentView(layoutId);
         bar = getSupportActionBar();
         bar.setTitle(getResources().getResourceEntryName(layoutId));
+        //bar.setCustomView();
     }
 
     public void syncData(){
