@@ -8,6 +8,12 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.LinearLayout;
 
+//imagem raiza
+import android.app.ListActivity;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+//imagem raiza fim
+
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v7.app.ActionBar;
@@ -48,12 +54,31 @@ public class MainActivity extends AppCompatActivity {
     ActionBar bar;
     Evaluation evaluation;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
+
+        //imagem raiza
+
+    public void beer(View view){
+        setContentView(R.layout.audit3_2_beer);
+    }
+    public void wine(View view){
+        setContentView(R.layout.audit3_2_wine);
+    }
+    public void whiskey(View view){
+        setContentView(R.layout.audit3_2_whiskey);
+    }
+    public void vodka(View view){
+        setContentView(R.layout.audit3_2_vodka);
+    }
+    public void bottle(View view){
+        setContentView(R.layout.audit3_2_bottle);
+    }
+    //imagem raiza fim
 
     @Override
     public void setContentView(int layoutId) {
