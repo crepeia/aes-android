@@ -3,6 +3,7 @@ package br.com.alcoolesaude.aes;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
+import android.view.MenuItem;
 import android.view.ViewGroup.LayoutParams;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -12,6 +13,8 @@ import android.widget.LinearLayout;
 import android.app.ListActivity;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.support.v7.app.ActionBar;
+
 //imagem raiza fim
 
 import android.os.Bundle;
@@ -58,8 +61,28 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+            /*botão home
+        android.support.v7.app.ActionBar ab = getSupportActionBar();
+        ab.setDisplayHomeAsUpEnabled(true);
+        //ab.setBackgroundDrawable(getResources().getDrawable(R.drawable.logo));
+        botão home fim*/
+    }
+
+    /*botão home
+    public boolean onOptionsItemSelected (int panel, MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                Toast.makeText(this, "logo botão", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(this, MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+                break;
+        }
+            return (true);
 
     }
+
+    botão home fim*/
 
         //imagem raiza
 
