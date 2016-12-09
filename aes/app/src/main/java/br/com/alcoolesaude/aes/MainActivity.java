@@ -1,10 +1,21 @@
 package br.com.alcoolesaude.aes;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
+import android.view.MenuItem;
 import android.view.ViewGroup.LayoutParams;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.LinearLayout;
+
+//imagem raiza
+import android.app.ListActivity;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.support.v7.app.ActionBar;
+
+//imagem raiza fim
 
 import android.os.Bundle;
 import android.provider.Settings;
@@ -46,18 +57,58 @@ public class MainActivity extends AppCompatActivity {
     ActionBar bar;
     Evaluation evaluation;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+            /*botão home
+        android.support.v7.app.ActionBar ab = getSupportActionBar();
+        ab.setDisplayHomeAsUpEnabled(true);
+        //ab.setBackgroundDrawable(getResources().getDrawable(R.drawable.logo));
+        botão home fim*/
     }
+
+    /*botão home
+    public boolean onOptionsItemSelected (int panel, MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                Toast.makeText(this, "logo botão", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(this, MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+                break;
+        }
+            return (true);
+
+    }
+
+    botão home fim*/
+
+        //imagem raiza
+
+    public void beer(View view){
+        setContentView(R.layout.audit3_2_beer);
+    }
+    public void wine(View view){
+        setContentView(R.layout.audit3_2_wine);
+    }
+    public void whiskey(View view){
+        setContentView(R.layout.audit3_2_whiskey);
+    }
+    public void vodka(View view){
+        setContentView(R.layout.audit3_2_vodka);
+    }
+    public void bottle(View view){
+        setContentView(R.layout.audit3_2_bottle);
+    }
+    //imagem raiza fim
 
     @Override
     public void setContentView(int layoutId) {
         super.setContentView(layoutId);
         bar = getSupportActionBar();
         bar.setTitle(getResources().getResourceEntryName(layoutId));
+        //bar.setCustomView();
     }
 
     public void syncData(){
@@ -492,12 +543,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.feedback_abstainers_limits);
     }
 
+    public void abstainerFeedback(View view){
+        setContentView(R.layout.feedback_abstainer);
+    }
+
     public void backBack(View view){
         setContentView(R.layout.activity_main);
     }
 
     public void abstainerProblems(View view){
         setContentView(R.layout.feedback_abstainers_problems);
+    }
+
+    public void abstainerInfo(View view){
+        setContentView(R.layout.feedback_moreinfo);
     }
 
     public void pregnancynoRecommended(View view){
@@ -534,6 +593,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void pregnancynoExperience3(View view){
         setContentView(R.layout.feedback_pregnancyno_experimentar3);
+    }
+
+    public void pregnancynoInfo(View view){
+        setContentView(R.layout.feedback_pregnancyno_info);
+    }
+
+    public void pregnancyno(View view){
+        setContentView(R.layout.feedback_pregnancyno);
     }
 
     public void pregnancyyesRecommended(View view){
@@ -649,6 +716,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void pregnancyyesdrinkingnoStop (View view){
         setContentView(R.layout.feedback_pregnancyyes_drinkingno_comoparar1);
+    }
+
+    public void pregnancyyesdrinkingnoInfo (View view){
+        setContentView(R.layout.feedback_pregnancyyes_drinkingno_info);
     }
 
 
@@ -952,8 +1023,28 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.sintomas_alcool_nocivo_sim_uso);
     }
 
+    public void paginaFinal (View view){
+        setContentView(R.layout.pagina_final);
+    }
 
+    public void paginaSobre (View view){
+        setContentView(R.layout.sobre);
+    }
 
+    public void paginaSobre2 (View view){
+        setContentView(R.layout.sobre2);
+    }
+
+    public void paginaEmail (View view){
+        setContentView(R.layout.feedback_annualscreening);
+    }
+
+    public void clicar (View view){
+        String url = "http://www.alcoolesaude.com.br/";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
 
 
 

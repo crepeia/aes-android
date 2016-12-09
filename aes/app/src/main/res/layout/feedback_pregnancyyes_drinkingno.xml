@@ -30,7 +30,7 @@
             android:textColor="@color/primaryText"
             android:text="@string/feedback_pregnancyyes_drinkingno"
             android:id="@+id/textView2"
-            android:layout_weight="0.47" />
+            android:layout_weight="0.50" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -52,9 +52,9 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="3"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
 
         <Button
             android:layout_width="match_parent"
@@ -62,13 +62,16 @@
             android:text="@string/feedback_pregnancyyes_button_2"
             android:onClick="pregnancyyesdrinkingnodoubt"
             android:padding="20dp"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.21" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/feedback_pregnancyyes_button_3"
+            android:onClick="pregnancyyesdrinkingnoInfo"
             android:padding="20dp"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.21" />
 
 
 
@@ -76,8 +79,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1.72"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center">
         <LinearLayout
@@ -89,7 +91,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/back"
-                android:onClick="backBack"
+                android:onClick="audit1QuestionBack"
                 android:padding="20dp"
                 android:textColor="#FFFFFF"
                 />
@@ -100,14 +102,6 @@
             android:layout_weight="1"
             android:gravity="center">
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/next"
-                android:onClick=""
-                android:padding="20dp"
-                android:textColor="#FFFFFF"
-                android:id="@+id/button" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

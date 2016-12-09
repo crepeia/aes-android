@@ -23,7 +23,7 @@
     <string name="audit_3_selectitem_3">De 2 a 4 vezes por mês</string>
     <string name="audit_3_selectitem_4">De 2 a 3 vezes por semana</string>
     <string name="audit_3_selectitem_5">4 ou mais vezes por semana</string>
-    <string name="questions_5">02. Nas ocasiões em que bebe, quantas doses (*veja na ilustração acima quanto é uma dose) você consome tipicamente ao beber?</string>
+    <string name="questions_5">02. Nas ocasiões em que bebe, quantas doses (*veja no botão abaixo ilustrações de quanto é uma dose) você consome tipicamente ao beber?</string>
     <string name="audit3_2_1">1 ou 2</string>
     <string name="audit3_2_2">3 ou 4</string>
     <string name="audit3_2_3">5 ou 6</string>
@@ -165,13 +165,13 @@
     <string name="feedback_underagedrinkingyes_duvidas13">Caso não tenha acesso à um profissional de saúde utilize o Viva Voz (Disque 132 - ligação gratuita)</string>
     <string name="feedback_underage_pregnancyyes">Informações para Gestantes menores de 18 anos</string>
     <string name="feedback_underage_pregnancyyes_titulo">Cuidado - você e seu futuro bebê estão em risco!</string>
-    <string name="feedback_underage_pregnancyyes1">Você relatou beber e que pode estar grávida - O consumo de álcool é muito prejudicial para adolescentes e extremamente prejudicial para o bom desenvolvimento do seu bebê.</string>
+    <string name="feedback_underage_pregnancyyes1">Você relatou beber e que pode estar grávida - O consumo de álcool é muito prejudicial para adolescentes e para o bom desenvolvimento do seu bebê.</string>
     <string name="feedback_underage_pregnancyyes_recomendacoes">Toda gravidez na adolescência pode ser considerada uma gravidez de risco - Procure um profissional de saúde para obter mais orientações sobre quais cuidados deve tomar.</string>
     <string name="feedback_underage_pregnancyyes_recomendacoes1">Recomendamos fortemente que pare de beber e que procure, assim que possível, um profissional de saúde que possa ajudá-la.</string>
     <string name="feedback_underage_pregnancyyes_recomendacoes2">Este site ainda não possui ferramentas específicas para gestantes e para adolescentes.</string>
     <string name="feedback_underage_pregnancyyes_recomendacoes3">Recomendamos que leia as perguntas e respostas sobre álcool e gravidez na adolescência a seguir, elas podem lhe ajudar.</string>
     <string name="feedback_underage_pregnancyyes_duvidas">Não consuma álcool antes dos 18 anos, principalmente caso esteja ou possa estar grávida.</string>
-    <string name="feedback_pregnancyyes_drinkingno">Você relatou não fazer consumo de álcool o que é fundamental para o bom desenvolvimento de um bebê. É fundamental que permaneça sem beber durante toda a gravidez e mesmo durante o período em que estiver amamentando.</string>
+    <string name="feedback_pregnancyyes_drinkingno">Você relatou não fazer consumo de álcool o que é fundamental para o bom desenvolvimento de um bebê. Permaneça sem beber durante toda a gravidez e durante o período em que estiver amamentando.</string>
     <string name="feedback_pregnancyyes_drinkingno1">Caso tenha dúvidas procure sempre um profissional de saúde</string>
     <string name="feedback_pregnancyyes_drinkingno2">Confira a seguir algumas das dúvidas frequentes entre gestantes</string>
     <string name="feedback_uso_nocivo">Resultados do seu teste</string>
@@ -194,7 +194,7 @@
     <string name="feedback_recommend_button_3">Mais informações</string>
     <string name="annual_screening">Acompanhamento anual</string>
     <string name="annual_screening_button">Enviar</string>
-    <string name="feedback_recommend_recommendations_1">Baixo Risco não quer Sem Risco - Logo, sugerimos que siga as seguintes recomendações:</string>
+    <string name="feedback_recommend_recommendations_1">Baixo Risco não quer dizer Sem Risco - Logo, sugerimos que siga as seguintes recomendações:</string>
     <string name="feedback_recommend_recommendations_2_men">Beba no máximo 2 doses por dia.</string>
     <string name="feedback_recommend_recommendations_3_men">Não mais que 10 doses por semana..</string>
     <string name="feedback_recommend_recommendations_4">Caso beber mais que isso, considere fazer esta avaliação novamente para iniciar um plano de mudança.</string>
@@ -210,7 +210,7 @@
     <string name="feedback_underage_drinkingno_pregnancyyes_titulo">Informações para menores de 18 anos grávidas</string>
     <string name="feedback_underage_drinkingno_pregnancyyes_intro">Parabéns por não consumir álcool ! Cuidado: toda gravidez na adolescência é considerada como de risco, mesmo que você não consuma álcool.</string>
     <string name="feedback_underage_drinkingno_pregnancyyes_text1_1">A adolescência é um período único para o desenvolvimento do cérebro e do seu corpo.</string>
-    <string name="feedback_underage_drinkingno_pregnancyyes_text1_2">Estudos apontam que mesmo os adolescentes que consomem álcool a pouco tempo, podem ter uma diminuição do volume do cérebro. Ao longo do tempo, adolescentes que consomem álcool, podem também ter maiores dificuldades para resolver problemas que exigem o uso de raciocínio.</string>
+    <string name="feedback_underage_drinkingno_pregnancyyes_text1_2">Estudos apontam que adolescentes que consomem álcool há pouco tempo podem ter uma diminuição do volume do cérebro. A longo prazo, podem ter maiores dificuldades para resolver problemas que exigem o uso de raciocínio.</string>
     <string name="feedback_underage_drinkingno_pregnancyyes_text1_3">Ao evitar consumir álcool você não só preserva o seu cérebro por mais tempo, como também evita outros possíveis danos que podem estar associados com problemas de saúde, acidentes, brigas e discussões.</string>
     <string name="feedback_underage_drinkingno_pregnancyyes_text2_1">Aprender a se divertir e aproveitar a vida de forma mais saudável é sempre uma escolha boa !</string>
     <string name="feedback_underage_drinkingno_pregnancyyes_text2_2">Caso tenha dúvidas ou venha a consumir álcool no futuro procure um profissional de saúde e converse sobre este assunto:</string>

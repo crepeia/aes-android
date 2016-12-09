@@ -39,7 +39,7 @@
             android:textColor="@color/colorPrimaryDark"
             android:text="@string/feedback_underage_pregnancyyes1"
             android:id="@+id/textView2"
-            android:layout_weight="0.52" />
+            android:layout_weight="0.54" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -67,7 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/feedback_pregnancyyes_button_3"
-            android:onClick="underagepregnancyyesinfo"
+            android:onClick="underagepregnantyyesinfo"
             android:padding="20dp"
             android:textColor="#FFFFFF" />
 
@@ -77,8 +77,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1.15"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center">
         <LinearLayout
@@ -101,14 +100,6 @@
             android:layout_weight="1"
             android:gravity="center">
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/next"
-                android:onClick="drinkQuestionBack"
-                android:padding="20dp"
-                android:textColor="#FFFFFF"
-                android:id="@+id/button" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
