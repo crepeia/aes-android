@@ -952,7 +952,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void dependencyContQuestionBack(View view){
-        setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia_continuacao);
+        setContentView(R.layout.sintomas_alcool_dependencia_uso_dependencia);
     }
 
     public void dependencyProblemsQuestionBack(View view){

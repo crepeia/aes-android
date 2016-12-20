@@ -20,8 +20,7 @@
             android:layout_marginBottom="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/colorPrimaryDark"
-            android:text="@string/dependency"
-            android:layout_weight="0.2"/>
+            android:text="@string/dependency" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -29,8 +28,7 @@
             android:layout_marginBottom="80dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/dependency_4"
-            android:layout_weight="1" />
+            android:text="@string/dependency_4" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -38,8 +36,7 @@
             android:layout_marginBottom="60dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
-            android:text="@string/dependency_5"
-            android:layout_weight="1" />
+            android:text="@string/dependency_5" />
 
 
 
