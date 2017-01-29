@@ -11,16 +11,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="6.68"
         android:orientation="vertical"
         android:weightSum="1">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/colorPrimaryDark"
-            android:text="@string/questions_0"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -28,7 +21,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/primaryText"
             android:text="@string/questions_5"
-            android:layout_weight="0.84" />
+            android:layout_weight="0.35" />
 
         <Button
             android:layout_width="wrap_content"
@@ -39,68 +32,67 @@
             android:textColor="#FFFFFF"
             android:id="@+id/button9"
             android:layout_gravity="center_horizontal" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1.81"
-        android:orientation="vertical">
 
-        <RadioGroup
+        <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:id="@+id/radioGroupAudit2">
+            android:text="@string/audit3_2_1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/primaryText"
+            android:id="@+id/radioButton4"
+            android:checked="false" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/audit3_2_1"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/primaryText"
-                android:layout_marginBottom="20dp"
-                android:id="@+id/radioButtonFemale"
-                android:checked="false" />
-
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/audit3_2_2"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/primaryText"
-                android:id="@+id/radioButtonMale"
-                android:checked="false" />
-
-            <RadioButton
-                android:layout_width="98dp"
-                android:layout_height="wrap_content"
-                android:text="@string/audit3_2_3"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/primaryText"
-                android:id="@+id/radioButton"
-                android:checked="false" />
-
-            <RadioButton
+            <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/audit3_2_4"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/primaryText"
-                android:id="@+id/radioButton2"
-                android:checked="false" />
+                android:layout_gravity="left"
+                android:id="@+id/radioGroupAudit2">
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/audit3_2_5"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/primaryText"
-                android:id="@+id/radioButton3"
-                android:checked="false" />
 
-        </RadioGroup>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/audit3_2_2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/primaryText"
+                    android:id="@+id/radioButtonMale"
+                    android:checked="false" />
 
+                <RadioButton
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/audit3_2_3"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/primaryText"
+                    android:id="@+id/radioButton"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/audit3_2_4"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/primaryText"
+                    android:id="@+id/radioButton2"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/audit3_2_5"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/primaryText"
+                    android:id="@+id/radioButton3"
+                    android:checked="false" />
+
+            </RadioGroup>
+
+        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
